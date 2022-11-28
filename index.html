@@ -51,7 +51,7 @@
 
     div.gallery:hover {
         border: 1px solid #777;
-        transform:scale(1.4, 1.4);
+        transform: scale(1.4, 1.4);
         z-index: 2;
     }
 
@@ -78,6 +78,12 @@
 
     a {
         text-decoration: none;
+    }
+
+    @media screen and (min-width: 0px) and (max-width: 700px) {
+        div.gallery:hover {
+            transform: unset;
+        }
     }
 </style>
 
