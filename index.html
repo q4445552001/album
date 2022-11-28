@@ -42,12 +42,17 @@
         margin: 5px;
         border: 1px solid #ccc;
         display: inline-block;
-        width: 190px;
-        height: 450px;
+        width: 300px;
+        height: 400px;
+        transition: all 1s ease-out;
+        background-color: white;
+        z-index: 1;
     }
 
     div.gallery:hover {
         border: 1px solid #777;
+        transform:scale(1.4, 1.4);
+        z-index: 2;
     }
 
     div.gallery .img {
@@ -58,17 +63,17 @@
     }
 
     div.gallery .img img {
-        width: 100%;
-        height: 100%;
-        max-height: 339px;
-        vertical-align: middle;
+        width: auto;
+        height: auto;
+        max-width: 300px;
+        max-height: 284px;
+        margin: auto;
     }
 
     div.desc {
-        padding: 15px;
+        padding: 8px;
         text-align: center;
         color: rgba(0, 0, 0, .54);
-        height: 78px;
     }
 
     a {
@@ -139,10 +144,10 @@
                 <div class="gallery">
                     <a target="_blank" href="${item.productUrl}">
                         <div class="img">
-                            <img src="${item.coverPhotoBaseUrl}">
+                            <img src="${item.coverPhotoBaseUrl == "" ? "./no-image-icon-23494-Windows.ico" : item.coverPhotoBaseUrl}">
                         </div>
-                        <div class="desc">${item.title}<br>${item.Des ?? ""}</div>
                         <div class="desc">(${item.mediaItemsCount} 個項目)</div>
+                        <div class="desc">${item.title}<br>${item.Des ?? ""}</div>
                     </a>
                 </div>
 		`;
