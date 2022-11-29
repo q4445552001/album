@@ -19,7 +19,7 @@ function init() {
 
 	// $('#albums').empty();
 	Get(Page);
-	ScrollHeight = $(document).height();
+	ScrollHeight = $(document).height() - 200;
 }
 
 function Get(size) {
