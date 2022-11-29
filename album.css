@@ -33,10 +33,6 @@ body {
 	transition-duration: 0.1s;
 }
 
-.footer:hover {
-	top: 0px;
-}
-
 .albums {
 	position: absolute;
 	top: 70px;
@@ -101,6 +97,16 @@ a {
 
 .link .icon {
 	padding: 0 4px 0 4px;
+}
+
+.top-0 {
+	top: 0px;
+}
+
+@media screen and (min-width: 700px) {
+	.footer:hover {
+		top: 0px;
+	}
 }
 
 @media screen and (max-width: 700px) {

@@ -1,5 +1,3 @@
-
-// var List = [];
 var PageSize = 18;
 var Page = 0; //初始化頁數
 var ScrollHeight = 0;
@@ -7,6 +5,9 @@ var ScrollHeight = 0;
 $(init);
 
 async function init() {
+
+	SetTouchFooter();
+	
 	$(window).off('scroll').on("scroll", async function (e) {
 		let self = window.pageYOffset + window.innerHeight;
 		if (self >= ScrollHeight) {
@@ -16,27 +17,10 @@ async function init() {
 		}
 	});
 
-	await listAlbums();
+	$('#albums').empty();
+	Get(Page);
 	ScrollHeight = $(document).height();
 }
-
-async function listAlbums() {
-	$('#albums').empty();
-
-	// var data =
-	//     await $.ajax({
-	//         type: 'POST',
-	//         url: 'http://localhost:8080/getList',
-	//         dataType: 'json',
-	//         error: (data) => {
-	//         }
-	//     });
-
-	// List = data;
-
-	Get(Page);
-}
-
 
 function Get(size) {
 	var $obj = $('#albums');
@@ -58,4 +42,24 @@ function Get(size) {
 
 		$obj.append(html);
 	});
+}
+
+function SetTouchFooter() {
+	$(".footer").on("touchend", function () {
+		$this = $(this);
+		if ($this.is('.top-0')) {
+			$this.removeClass('top-0');
+		}
+		else {
+			$this.addClass('top-0');
+		}
+	})
+
+	$(window).on("touchmove", function () {
+		$this.removeClass('top-0');
+	})
+
+	$(window).resize(function () {
+		$(".footer").removeClass('top-0');
+	})
 }
