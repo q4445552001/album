@@ -15,6 +15,11 @@ function init() {
 			Get(Page);
 			ScrollHeight = $(document).height() - 200;
 		}
+
+		if (window.pageYOffset == 0)
+			$('.backtop').hide();
+		else
+			$('.backtop').show();
 	});
 
 	// $('#albums').empty();
@@ -89,4 +94,8 @@ function footer_AddClass(open = false) {
 		$footer.find(".text-top").removeClass('j_display');
 		$footer.removeClass('j_w');
 	}
+}
+
+function BackTop() {
+	$('html').stop().animate({ scrollTop: 0 }, 700, () => $('.backtop').hide());
 }

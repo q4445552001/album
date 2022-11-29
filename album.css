@@ -12,12 +12,22 @@ body {
 	text-align: center;
 }
 
+/* Back Top */
+.backtop {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+	z-index: 2;
+	display: none;
+}
+
 /* albums */
 .albums {
 	padding-top: 70px;
 	padding-bottom: 70px;
 	position: absolute;
-    width: 100%;
+	width: 100%;
 }
 
 div.gallery {
@@ -35,7 +45,7 @@ div.gallery {
 div.gallery:hover {
 	border: 1px solid #777;
 	transform: scale(1.4, 1.4);
-	z-index: 2;
+	z-index: 3;
 }
 
 div.gallery .img {
