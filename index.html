@@ -6,122 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./List.js"></script>
     <script src="./album.js"></script>
+    <link rel="stylesheet" href="./album.css">
     <title>嘎澤的相簿</title>
 </head>
-
-<style>
-    html,
-    body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        font-family: Microsoft JhengHei;
-        overflow-x: hidden;
-    }
-
-    .power {
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding: 12px;
-        font-size: 10px;
-    }
-
-    .footer {
-        position: fixed;
-        /* width: 100%; */
-        height: 98px;
-        background-color: #90CAF9;
-        z-index: 99;
-
-        top: -48px;
-
-        width: 370px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        transition-property: top;
-        transition-duration: 0.1s;
-    }
-
-    .footer:hover {
-        top: 0px;
-    }
-
-    .albums {
-        position: absolute;
-        top: 70px;
-    }
-
-    body>div {
-        text-align: center;
-    }
-
-    div.gallery {
-        margin: 5px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        display: inline-block;
-        width: 300px;
-        height: 400px;
-        transition: all 0.1s ease-out;
-        background-color: white;
-        z-index: 1;
-    }
-
-    div.gallery:hover {
-        border: 1px solid #777;
-        transform: scale(1.4, 1.4);
-        z-index: 2;
-    }
-
-    div.gallery .img {
-        width: auto;
-        min-height: 284px;
-        display: flex;
-        align-items: center;
-    }
-
-    div.gallery .img img {
-        width: auto;
-        height: auto;
-        max-width: 300px;
-        max-height: 284px;
-        margin: auto;
-    }
-
-    div.desc {
-        padding: 8px;
-        text-align: center;
-        color: rgba(0, 0, 0, .54);
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    .footer p {
-        font-size: 16px;
-        width: calc(100% - 10px);
-        margin: 5px;
-    }
-
-    .footer .link {
-        padding-top: 4px;
-    }
-
-    .link .icon {
-        padding: 0 4px 0 4px;
-    }
-
-    @media screen and (max-width: 700px) {
-        div.gallery:hover {
-            transform: unset;
-        }
-    }
-</style>
 
 <body>
     <div class="power">
@@ -146,7 +35,8 @@
             <a class="icon" href="https://www.facebook.com/q4445552001" target="_blank" title="FaceBook">
                 <img width="30px" src="./icon/facebook-svgrepo-com.svg" />
             </a>
-            <a class="icon" href="mailto:q4445552001@yahoo.com.tw?subject:領照＆body=ex.我要領[FFK12 Day1] 的 IMG_9999" target="_blank" title="Yahoo Email">
+            <a class="icon" href="mailto:q4445552001@yahoo.com.tw?subject:領照＆body=ex.我要領[FFK12 Day1] 的 IMG_9999"
+                target="_blank" title="Yahoo Email">
                 <img width="30px" src="./icon/icons8-yahoo-mail-app.svg" />
             </a>
         </p>
@@ -157,66 +47,3 @@
 </body>
 
 </html>
-
-<script>
-    // var List = [];
-    var PageSize = 18;
-    var Page = 0; //初始化頁數
-    var ScrollHeight = 0;
-
-    $(init);
-
-    async function init() {
-        $(window).off('scroll').on("scroll", async function (e) {
-            let self = window.pageYOffset + window.innerHeight;
-            if (self >= ScrollHeight) {
-                Page++;
-                await Get(Page);
-                ScrollHeight = $(document).height() - 200;
-            }
-        });
-
-        await listAlbums();
-        ScrollHeight = $(document).height();
-    }
-
-    async function listAlbums() {
-        $('#albums').empty();
-
-        // var data =
-        //     await $.ajax({
-        //         type: 'POST',
-        //         url: 'http://localhost:8080/getList',
-        //         dataType: 'json',
-        //         error: (data) => {
-        //         }
-        //     });
-
-        // List = data;
-
-        Get(Page);
-    }
-
-
-    function Get(size) {
-        var $obj = $('#albums');
-
-        var data = List.filter(function (x, i) { return i >= size * PageSize && i < (size * PageSize + PageSize) });
-
-        $.each(data, (i, item) => {
-            var html = `
-                <div class="gallery" title="${item.title}">
-                    <a target="_blank" href="${item.productUrl == "" ? "#" : item.productUrl}">
-                        <div class="img">
-                            <img src="${item.coverPhotoBaseUrl == "" ? "./icon/no-image-icon-23494-Windows.ico" : item.coverPhotoBaseUrl}">
-                        </div>
-                        <div class="desc">(${item.mediaItemsCount} 個項目)</div>
-                        <div class="desc">${item.title}<br>${item.Des ?? ""}</div>
-                    </a>
-                </div>
-		`;
-
-            $obj.append(html);
-        });
-    }
-</script>
