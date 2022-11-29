@@ -1,3 +1,7 @@
+:root {
+	--width: 370px;
+}
+
 html,
 body {
 	width: 100%;
@@ -5,41 +9,14 @@ body {
 	margin: 0;
 	font-family: Microsoft JhengHei;
 	overflow-x: hidden;
-}
-
-.power {
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 12px;
-	font-size: 10px;
-}
-
-.footer {
-	position: fixed;
-	/* width: 100%; */
-	height: 98px;
-	background-color: #90CAF9;
-	z-index: 99;
-
-	top: -48px;
-
-	width: 370px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	left: 50%;
-	transform: translateX(-50%);
-	transition-property: top;
-	transition-duration: 0.1s;
-}
-
-.albums {
-	position: absolute;
-	top: 70px;
-}
-
-body>div {
 	text-align: center;
+}
+
+/* albums */
+.albums {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	position: absolute;
 }
 
 div.gallery {
@@ -81,8 +58,20 @@ div.desc {
 	color: rgba(0, 0, 0, .54);
 }
 
-a {
-	text-decoration: none;
+/* footer */
+.footer {
+	position: fixed;
+	width: 114px;
+	height: 98px;
+	background-color: #90CAF9;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	top: -48px;
+	left: 50%;
+	transform: translateX(-50%);
+	transition-property: top;
+	transition-duration: 0.1s;
+	z-index: 99;
 }
 
 .footer p {
@@ -91,26 +80,67 @@ a {
 	margin: 5px;
 }
 
+.footer .text-top {
+	top: 0;
+	width: var(--width);
+	display: none;
+}
+
 .footer .link {
 	padding-top: 4px;
+	position: absolute;
+	bottom: 0;
 }
 
 .link .icon {
 	padding: 0 4px 0 4px;
 }
 
-.top-0 {
-	top: 0px;
+/* End */
+.end {
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	width: 100%;
+	height: 55px;
+	border-top: 2px solid #ccc;
 }
 
-@media screen and (min-width: 700px) {
+.end .power {
+	padding: 12px;
+	font-size: 10px;
+}
+
+/* Setting */
+.top-0 {
+	top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media (hover: hover) {
 	.footer:hover {
-		top: 0px;
+		width: var(--width);
+		top: 0;
+	}
+
+	.footer:hover .text-top {
+		display: block;
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media (hover: none) {
 	div.gallery:hover {
 		transform: unset;
+	}
+
+	.footer {
+		width: var(--width);
+	}
+
+	.footer .text-top {
+		display: block;
 	}
 }

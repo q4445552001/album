@@ -4,20 +4,20 @@ var ScrollHeight = 0;
 
 $(init);
 
-async function init() {
+function init() {
 
 	SetTouchFooter();
-	
-	$(window).off('scroll').on("scroll", async function (e) {
+
+	$(window).off('scroll').on("scroll", function () {
 		let self = window.pageYOffset + window.innerHeight;
 		if (self >= ScrollHeight) {
 			Page++;
-			await Get(Page);
+			Get(Page);
 			ScrollHeight = $(document).height() - 200;
 		}
 	});
 
-	$('#albums').empty();
+	// $('#albums').empty();
 	Get(Page);
 	ScrollHeight = $(document).height();
 }
@@ -45,8 +45,14 @@ function Get(size) {
 }
 
 function SetTouchFooter() {
+	$(".footer a").on("click", function (e) {
+		if (!window.matchMedia('(hover: hover)').matches && $(".footer").is('.top-0')) {
+			e.preventDefault();
+		}
+	})
+
 	$(".footer").on("touchend", function () {
-		$this = $(this);
+		var $this = $(this);
 		if ($this.is('.top-0')) {
 			$this.removeClass('top-0');
 		}
@@ -55,11 +61,18 @@ function SetTouchFooter() {
 		}
 	})
 
-	$(window).on("touchmove", function () {
-		$this.removeClass('top-0');
+	$(window).on("touchend", function (e) {
+		if ($(e.target).closest(".footer").length == 0) {
+			$(".footer").removeClass('top-0');
+		}
+	})
+
+	$(window).on("touchmove", function (e) {
+		$(".footer").removeClass('top-0');
 	})
 
 	$(window).resize(function () {
 		$(".footer").removeClass('top-0');
+		ScrollHeight = $(document).height();
 	})
 }
