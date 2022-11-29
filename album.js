@@ -46,6 +46,7 @@ function Get(size) {
 
 function SetTouchFooter() {
 	$(".footer a").on("click", function (e) {
+		alert(window.matchMedia('(hover: hover)').matches)
 		if (!window.matchMedia('(hover: hover)').matches && $(".footer").is('.top-0')) {
 			e.preventDefault();
 		}
