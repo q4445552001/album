@@ -638,12 +638,6 @@ var List = [
 		"coverPhotoBaseUrl": ""
 	},
 	{
-		"title": "2012年11月3日",
-		"productUrl": "",
-		"mediaItemsCount": "57",
-		"coverPhotoBaseUrl": ""
-	},
-	{
 		"title": "20121028_2",
 		"productUrl": "",
 		"mediaItemsCount": "39",
@@ -653,18 +647,6 @@ var List = [
 		"title": "20121028_1",
 		"productUrl": "",
 		"mediaItemsCount": "14",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "2012年10月28日",
-		"productUrl": "",
-		"mediaItemsCount": "76",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "2012年10月23日",
-		"productUrl": "",
-		"mediaItemsCount": "64",
 		"coverPhotoBaseUrl": ""
 	},
 	{
@@ -680,36 +662,6 @@ var List = [
 		"coverPhotoBaseUrl": ""
 	},
 	{
-		"title": "2012年10月19日",
-		"productUrl": "",
-		"mediaItemsCount": "94",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121014",
-		"productUrl": "",
-		"mediaItemsCount": "168",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "2012年10月10日",
-		"productUrl": "",
-		"mediaItemsCount": "49",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "cos_392",
-		"productUrl": "",
-		"mediaItemsCount": "11",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "cos_386",
-		"productUrl": "",
-		"mediaItemsCount": "9",
-		"coverPhotoBaseUrl": ""
-	},
-	{
 		"title": "Animax2",
 		"productUrl": "",
 		"mediaItemsCount": "92",
@@ -722,63 +674,9 @@ var List = [
 		"coverPhotoBaseUrl": ""
 	},
 	{
-		"title": "2012年9月15日",
-		"productUrl": "",
-		"mediaItemsCount": "146",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "2012年9月14日-2",
-		"productUrl": "",
-		"mediaItemsCount": "31",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "2012年9月14日",
-		"productUrl": "",
-		"mediaItemsCount": "78",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "2012年8月26日",
-		"productUrl": "",
-		"mediaItemsCount": "75",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "2012年8月25日",
-		"productUrl": "",
-		"mediaItemsCount": "64",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "2012年8月23日",
-		"productUrl": "",
-		"mediaItemsCount": "40",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "2012年8月20日",
-		"productUrl": "",
-		"mediaItemsCount": "29",
-		"coverPhotoBaseUrl": ""
-	},
-	{
 		"title": "ER12",
 		"productUrl": "",
 		"mediaItemsCount": "22",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "ER12GIF原檔",
-		"productUrl": "",
-		"mediaItemsCount": "13",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "2012_07_15",
-		"productUrl": "",
-		"mediaItemsCount": "94",
 		"coverPhotoBaseUrl": ""
 	},
 	{
