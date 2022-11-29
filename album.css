@@ -112,12 +112,21 @@ div.desc {
 }
 
 /* Setting */
-.top-0 {
-	top: 0;
-}
-
 a {
 	text-decoration: none;
+}
+
+/* Jquery Control*/
+.j_top-0 {
+	top: 0 !important;
+}
+
+.j_display {
+	display: block !important;
+}
+
+.j_w {
+	width: var(--width) !important;
 }
 
 @media (hover: hover) {
@@ -136,11 +145,11 @@ a {
 		transform: unset;
 	}
 
-	.footer {
+	/* .footer {
 		width: var(--width);
-	}
+	} */
 
-	.footer .text-top {
+	/* .footer .text-top {
 		display: block;
-	}
+	} */
 }

@@ -46,33 +46,47 @@ function Get(size) {
 
 function SetTouchFooter() {
 	$(".footer a").on("click", function (e) {
-		if (window.matchMedia('(hover: none)').matches && $(".footer").is('.top-0')) {
+		if (window.matchMedia('(hover: none)').matches && $(".footer").is('.j_top-0')) {
 			e.preventDefault();
 		}
 	})
 
 	$(".footer").on("touchend", function () {
 		var $this = $(this);
-		if ($this.is('.top-0')) {
-			$this.removeClass('top-0');
+		if ($this.is('.j_top-0')) {
+			footer_AddClass(false)
 		}
 		else {
-			$this.addClass('top-0');
+			footer_AddClass(true)
 		}
 	})
 
 	$(window).on("touchend", function (e) {
 		if ($(e.target).closest(".footer").length == 0) {
-			$(".footer").removeClass('top-0');
+			footer_AddClass(false)
 		}
 	})
 
 	$(window).on("touchmove", function (e) {
-		$(".footer").removeClass('top-0');
+		footer_AddClass(false)
 	})
 
 	$(window).resize(function () {
-		$(".footer").removeClass('top-0');
+		footer_AddClass(false)
 		ScrollHeight = $(document).height();
 	})
+}
+
+function footer_AddClass(open = false) {
+	var $footer = $(".footer");
+	if (open) {
+		$footer.addClass('j_top-0');
+		$footer.find(".text-top").addClass('j_display');
+		$footer.addClass('j_w');
+	}
+	else {
+		$footer.removeClass('j_top-0');
+		$footer.find(".text-top").removeClass('j_display');
+		$footer.removeClass('j_w');
+	}
 }
