@@ -59,21 +59,21 @@ function SetTouchFooter() {
 	$(".footer").on("touchend", function () {
 		var $this = $(this);
 		if ($this.is('.j_top-0')) {
-			footer_AddClass(false)
+			footer_AddClass(false);
 		}
 		else {
-			footer_AddClass(true)
+			footer_AddClass(true);
 		}
 	})
 
 	$(window).on("touchend", function (e) {
 		if ($(e.target).closest(".footer").length == 0) {
-			footer_AddClass(false)
+			footer_AddClass(false);
 		}
 	})
 
-	$(window).on("touchmove", function (e) {
-		footer_AddClass(false)
+	$(window).on("touchmove", function () {
+		footer_AddClass(false);
 	})
 
 	$(window).resize(function () {
