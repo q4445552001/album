@@ -24,7 +24,8 @@
         position: absolute;
         top: 0;
         left: 0;
-        padding: 10px;
+        padding: 12px;
+        font-size: 10px;
     }
 
     .footer {
@@ -111,6 +112,10 @@
         padding-top: 4px;
     }
 
+    .link .icon {
+        padding: 0 4px 0 4px;
+    }
+
     @media screen and (max-width: 700px) {
         div.gallery:hover {
             transform: unset;
@@ -119,7 +124,14 @@
 </style>
 
 <body>
-    <div class="power"><a href="https://www.facebook.com/q4445552001">Power By 嘎澤</a></div>
+    <div class="power">
+        <a href="https://www.facebook.com/q4445552001" target="_blank">Power By 嘎澤</a>
+        <br>
+        Photos Engine By
+        <a href="https://www.google.com/photos/about" target="_blank">Google</a>
+        ,
+        <a href="https://www.flickr.com" target="_blank">Flickr</a>
+    </div>
     <div class="footer">
         <p>
             如要領照或撤照，歡迎至以下連結
@@ -131,10 +143,10 @@
             </b>
         </p>
         <p class="link">
-            <a style="width: 200px;" href="https://www.facebook.com/q4445552001" target="_blank">
+            <a class="icon" href="https://www.facebook.com/q4445552001" target="_blank" title="FaceBook">
                 <img width="30px" src="./icon/facebook-svgrepo-com.svg" />
             </a>
-            <a href="mailto:q4445552001@yahoo.com.tw?subject:領照＆body=ex.我要領[FFK12 Day1] 的 IMG_9999" target="_blank">
+            <a class="icon" href="mailto:q4445552001@yahoo.com.tw?subject:領照＆body=ex.我要領[FFK12 Day1] 的 IMG_9999" target="_blank" title="Yahoo Email">
                 <img width="30px" src="./icon/icons8-yahoo-mail-app.svg" />
             </a>
         </p>
@@ -193,7 +205,7 @@
 
         $.each(data, (i, item) => {
             var html = `
-                <div class="gallery">
+                <div class="gallery" title="${item.title}">
                     <a target="_blank" href="${item.productUrl == "" ? "#" : item.productUrl}">
                         <div class="img">
                             <img src="${item.coverPhotoBaseUrl == "" ? "./icon/no-image-icon-23494-Windows.ico" : item.coverPhotoBaseUrl}">
