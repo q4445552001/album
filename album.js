@@ -9,13 +9,14 @@ function init() {
 	SetTouchFooter();
 
 	$(window).off('scroll').on("scroll", function () {
-		let self = Math.round(window.pageYOffset + window.innerHeight);
+		var ChangeHeight = 200
+		let self = window.pageYOffset + window.innerHeight;
 
 		$("test").text(`${self}, ${ScrollHeight}`);
-		if (self >= ScrollHeight) {
+		if (self >= ScrollHeight - ChangeHeight) {
 			Page++;
 			Get(Page);
-			ScrollHeight = $(document).height() - 200;
+			ScrollHeight = $(document).height() - ChangeHeight;
 		}
 
 		if (window.pageYOffset == 0)
@@ -26,7 +27,7 @@ function init() {
 
 	// $('#albums').empty();
 	Get(Page);
-	ScrollHeight = $(document).height() - 200;
+	ScrollHeight = $(document).height() - ChangeHeight;
 }
 
 function Get(size) {
