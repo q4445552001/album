@@ -10,6 +10,8 @@ function init() {
 
 	$(window).off('scroll').on("scroll", function () {
 		let self = window.pageYOffset + window.innerHeight;
+
+		$("test").text(`${self}, ${ScrollHeight}`);
 		if (self >= ScrollHeight) {
 			Page++;
 			Get(Page);
