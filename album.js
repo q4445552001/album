@@ -9,7 +9,7 @@ function init() {
 	SetTouchFooter();
 
 	$(window).off('scroll').on("scroll", function () {
-		let self = window.pageYOffset + window.innerHeight;
+		let self = Math.round(window.pageYOffset + window.innerHeight);
 
 		$("test").text(`${self}, ${ScrollHeight}`);
 		if (self >= ScrollHeight) {
@@ -70,8 +70,13 @@ function SetTouchFooter() {
 	})
 
 	$(window).on("touchend", function (e) {
-		if ($(e.target).closest(".footer").length == 0) {
+		var $obj = $(e.target);
+		if ($obj.closest(".footer").length == 0) {
 			footer_AddClass(false);
+		}
+
+		if ($obj.closest(".gallery").length == 0) {
+			// e.preventDefault();
 		}
 	})
 
