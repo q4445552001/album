@@ -99,10 +99,10 @@ var List = [
 	},
 	{
 		"title": "WS43 Day1",
-		"productUrl": "",
+		"productUrl": "https://photos.app.goo.gl/qr9WbgHcevQYtQuo9",
 		"mediaItemsCount": "123",
 		"Des": "小港社教館",
-		"coverPhotoBaseUrl": ""
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/tDvNOTb7djX4XnLj2a3zpjUlwYAA9V1C6omDPjd1htAjyJ73hjj5jR9EVg4tbZnb9xUo2LUIEcCXo5pPAe7jqqAF6LW91f-qCIzG08aPNtfEA3HGs64rXFA-y1HHUM1e7DjS-HedoXw"
 	},
 	{
 		"title": "CWTK38 Day2",
