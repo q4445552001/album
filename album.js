@@ -6,16 +6,16 @@ $(init);
 
 function init() {
 	//若有直連
-	var par = hrefRequest();
-	if (location.href.indexOf("file:///") == -1 && par.title) {
-		for (var i in List) {
-			if (List[i].title == decodeURI(par.title)) {
-				console.log(List[i].productUrl)
-				location.href = List[i].productUrl;
-				return false;
-			}
-		}
-	}
+	// var par = hrefRequest();
+	// if (location.href.indexOf("file:///") == -1 && par.title) {
+	// 	for (var i in List) {
+	// 		if (List[i].title == decodeURI(par.title)) {
+	// 			console.log(List[i].productUrl)
+	// 			location.href = List[i].productUrl;
+	// 			return false;
+	// 		}
+	// 	}
+	// }
 
 	//要觸發增加的高度
 	var ChangeHeight = 200;
