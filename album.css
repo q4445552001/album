@@ -28,7 +28,7 @@ test {
 	top: 10px;
 	left: 10px;
 	cursor: pointer;
-	z-index: 2;
+	z-index: 4;
 	display: none;
 }
 
@@ -56,7 +56,7 @@ div.gallery {
 div.gallery:hover {
 	border: 1px solid #777;
 	transform: scale(1.4, 1.4);
-	z-index: 999;
+	z-index: 3;
 }
 
 div.gallery .img {
