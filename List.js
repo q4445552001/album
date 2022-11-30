@@ -434,39 +434,15 @@ var List = [
 		"coverPhotoBaseUrl": ""
 	},
 	{
-		"title": "CWTK12",
-		"productUrl": "",
-		"mediaItemsCount": "500",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130317",
-		"productUrl": "",
-		"mediaItemsCount": "103",
-		"coverPhotoBaseUrl": ""
-	},
-	{
 		"title": "ws20d",
 		"productUrl": "",
 		"mediaItemsCount": "380",
 		"coverPhotoBaseUrl": ""
 	},
 	{
-		"title": "WS20toAnkeir",
-		"productUrl": "",
-		"mediaItemsCount": "131",
-		"coverPhotoBaseUrl": ""
-	},
-	{
 		"title": "20130303",
 		"productUrl": "",
 		"mediaItemsCount": "55",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130228-2",
-		"productUrl": "",
-		"mediaItemsCount": "8",
 		"coverPhotoBaseUrl": ""
 	},
 	{
@@ -524,12 +500,6 @@ var List = [
 		"coverPhotoBaseUrl": ""
 	},
 	{
-		"title": "20130126",
-		"productUrl": "",
-		"mediaItemsCount": "26",
-		"coverPhotoBaseUrl": ""
-	},
-	{
 		"title": "20130125",
 		"productUrl": "",
 		"mediaItemsCount": "44",
@@ -557,12 +527,6 @@ var List = [
 		"title": "20130101_miku",
 		"productUrl": "",
 		"mediaItemsCount": "51",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130101_TFS",
-		"productUrl": "",
-		"mediaItemsCount": "119",
 		"coverPhotoBaseUrl": ""
 	},
 	{
@@ -644,12 +608,6 @@ var List = [
 		"coverPhotoBaseUrl": ""
 	},
 	{
-		"title": "20121028_1",
-		"productUrl": "",
-		"mediaItemsCount": "14",
-		"coverPhotoBaseUrl": ""
-	},
-	{
 		"title": "20121021_2",
 		"productUrl": "",
 		"mediaItemsCount": "76",
@@ -671,12 +629,6 @@ var List = [
 		"title": "UxAnimax2",
 		"productUrl": "",
 		"mediaItemsCount": "16",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "ER12",
-		"productUrl": "",
-		"mediaItemsCount": "22",
 		"coverPhotoBaseUrl": ""
 	},
 	{
