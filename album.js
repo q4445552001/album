@@ -35,7 +35,7 @@ function Get(size) {
 	$.each(data, (i, item) => {
 		var html = `
                 <div class="gallery" title="${item.title}">
-                    <a target="_blank" href="${item.productUrl == "" ? "#" : item.productUrl}">
+                    <a target="_blank" href="${item.productUrl == "" ? "javascript:void(0)" : item.productUrl}">
                         <div class="img">
                             <img src="${item.coverPhotoBaseUrl == "" ? "./icon/no-image-icon-23494-Windows.ico" : item.coverPhotoBaseUrl}">
                         </div>
@@ -74,6 +74,7 @@ function SetTouchFooter() {
 
 	$(window).on("touchmove", function () {
 		footer_AddClass(false);
+		// $(window).scroll();
 	})
 
 	$(window).resize(function () {
@@ -88,11 +89,13 @@ function footer_AddClass(open = false) {
 		$footer.addClass('j_top-0');
 		$footer.find(".text-top").addClass('j_display');
 		$footer.addClass('j_w');
+		$footer.addClass("j_opacity");
 	}
 	else {
 		$footer.removeClass('j_top-0');
 		$footer.find(".text-top").removeClass('j_display');
 		$footer.removeClass('j_w');
+		$footer.removeClass("j_opacity");
 	}
 }
 
