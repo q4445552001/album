@@ -86,9 +86,10 @@ function SetTouchFooter() {
 			footer_AddClass(false);
 		}
 
-		//若touch的地方是.gallery，就執行此步驟
+		//若touch的地方不是.gallery，就執行此步驟
 		if ($obj.closest(".gallery").length == 0) {
 			e.preventDefault();
+			$obj[0].click();
 		}
 	})
 
