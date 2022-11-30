@@ -1,5 +1,7 @@
 :root {
 	--width: 384px;
+	--img_top: 130px;
+	--img_width: 60px;
 }
 
 html,
@@ -51,6 +53,7 @@ div.gallery {
 	background-color: white;
 	z-index: 1;
 	position: relative;
+	cursor: pointer;
 }
 
 div.gallery:hover {
@@ -142,6 +145,7 @@ a {
 /* Jquery Control*/
 .j_top-0 {
 	top: 0 !important;
+	height: var(--img_top) !important;
 }
 
 .j_display {
@@ -156,15 +160,24 @@ a {
 	opacity: unset;
 }
 
+.j_img_width {
+	width: var(--img_width);
+}
+
 @media (hover: hover) {
 	.footer:hover {
 		width: var(--width);
 		top: 0;
 		opacity: unset;
+		height: var(--img_top);
 	}
 
 	.footer:hover .text-top {
 		display: block;
+	}
+
+	.footer:hover .icon img {
+		width: var(--img_width);
 	}
 }
 

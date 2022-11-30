@@ -5,6 +5,18 @@ var ScrollHeight = 0; //初始化頁面總高度
 $(init);
 
 function init() {
+	//若有直連
+	var par = hrefRequest();
+	if (location.href.indexOf("file:///") == -1 && par.title) {
+		for (var i in List) {
+			if (List[i].title == decodeURI(par.title)) {
+				console.log(List[i].productUrl)
+				location.href = List[i].productUrl;
+				return false;
+			}
+		}
+	}
+
 	//要觸發增加的高度
 	var ChangeHeight = 200;
 
@@ -42,12 +54,12 @@ function Get(size) {
 		// item.coverPhotoBaseUrl = "";
 		var html = `
                 <div class="gallery" title="${item.title}">
-                    <a target="_blank" ${item.productUrl == "" ? "disabled" : "href=\"" + item.productUrl + "\""}>
+                    <a target="_blank"${isNULL(item.productUrl, null) ? "href=\"" + item.productUrl + "\"" : "disabled"}>
                         <div class="img">
-                            <img src="${item.coverPhotoBaseUrl == "" ? "./icon/no-image-icon-23494-Windows.ico" : item.coverPhotoBaseUrl}">
+                            <img src="${isNULL(item.coverPhotoBaseUrl, null) ?? "./icon/no-image-icon-23494-Windows.ico"}">
                         </div>
                         <div class="desc">(${item.mediaItemsCount} 個項目)</div>
-                        <div class="desc">${item.title}<br>${item.Des ?? ""}</div>
+                        <div class="desc">${item.title}<br>${isNULL(item.Des, null) ?? ""}</div>
                     </a>
                 </div>
 		`;
@@ -57,7 +69,7 @@ function Get(size) {
 }
 
 /** Set Touch Footer Event
-*/ 
+*/
 function SetTouchFooter() {
 	//footer 內的連結縮起時阻擋touch觸發
 	$(".footer a").on("click", function (e) {
@@ -114,12 +126,14 @@ function footer_AddClass(open = false) {
 		$footer.find(".text-top").addClass('j_display');
 		$footer.addClass('j_w');
 		$footer.addClass("j_opacity");
+		$footer.find("img").addClass("j_img_width");
 	}
 	else {
 		$footer.removeClass('j_top-0');
 		$footer.find(".text-top").removeClass('j_display');
 		$footer.removeClass('j_w');
 		$footer.removeClass("j_opacity");
+		$footer.find("img").removeClass("j_img_width");
 	}
 }
 
@@ -127,4 +141,62 @@ function footer_AddClass(open = false) {
 */
 function BackTop() {
 	$('html').stop().animate({ scrollTop: 0 }, 700, () => $('.backtop').hide());
+}
+
+
+/*副程式****************************************************************************************************/
+
+/**判斷是否null
+* @param {String} v 要判斷的文字
+* @param {String} str 要回傳的文字
+* @return {String} string
+*/
+function isNULL(v, str) {
+	var _typeof = typeof (v);
+	switch (_typeof) {
+		case 'string':
+			switch (v.toLowerCase()) {
+				case 'null':
+				case '':
+				case 'invalid date':
+				case 'infinity':
+				case 'nan':
+					return str;
+				default:
+					return v;
+			}
+		case 'number':
+			switch ((v + '').toLowerCase()) {
+				case 'invalid date':
+				case 'infinity':
+				case 'nan':
+					return str;
+				default:
+					return v;
+			}
+		case 'undefined':
+			return str;
+		case 'object':
+			for (var i in v)
+				return v;
+			return str;
+		default:
+			return v;
+	}
+}
+
+/**拆URL
+* @param {String} url 網址
+* @return {JSON} selfJSON GET資料
+*/
+function hrefRequest(url) {
+	if (!url)
+		url = location.href;
+	var hrefArr = url.indexOf('?') > -1 ? url.split('?')[1].split('&') : null;
+	var selfJSON = {};
+	for (var i in hrefArr) {
+		var TempArr = hrefArr[i].split('=');
+		selfJSON[TempArr[0]] = TempArr[1];
+	}
+	return selfJSON;
 }
