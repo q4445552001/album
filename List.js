@@ -434,216 +434,6 @@ var List = [
 		"coverPhotoBaseUrl": ""
 	},
 	{
-		"title": "ws20d",
-		"productUrl": "",
-		"mediaItemsCount": "380",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130303",
-		"productUrl": "",
-		"mediaItemsCount": "55",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130228",
-		"productUrl": "",
-		"mediaItemsCount": "113",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130224",
-		"productUrl": "",
-		"mediaItemsCount": "30",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130218",
-		"productUrl": "",
-		"mediaItemsCount": "27",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130216",
-		"productUrl": "",
-		"mediaItemsCount": "39",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130207",
-		"productUrl": "",
-		"mediaItemsCount": "40",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130206",
-		"productUrl": "",
-		"mediaItemsCount": "102",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "SIK01",
-		"productUrl": "",
-		"mediaItemsCount": "399",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130131",
-		"productUrl": "",
-		"mediaItemsCount": "49",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130127",
-		"productUrl": "",
-		"mediaItemsCount": "95",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130125",
-		"productUrl": "",
-		"mediaItemsCount": "44",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130123",
-		"productUrl": "",
-		"mediaItemsCount": "81",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130120",
-		"productUrl": "",
-		"mediaItemsCount": "53",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130101_lan",
-		"productUrl": "",
-		"mediaItemsCount": "53",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20130101_miku",
-		"productUrl": "",
-		"mediaItemsCount": "51",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121230",
-		"productUrl": "",
-		"mediaItemsCount": "18",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121230",
-		"productUrl": "",
-		"mediaItemsCount": "69",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121223",
-		"productUrl": "",
-		"mediaItemsCount": "63",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121216",
-		"productUrl": "",
-		"mediaItemsCount": "106",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "夢時代遊行",
-		"productUrl": "",
-		"mediaItemsCount": "58",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121208_2",
-		"productUrl": "",
-		"mediaItemsCount": "83",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121208_1",
-		"productUrl": "",
-		"mediaItemsCount": "34",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121202",
-		"productUrl": "",
-		"mediaItemsCount": "47",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121125",
-		"productUrl": "",
-		"mediaItemsCount": "32",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121118",
-		"productUrl": "",
-		"mediaItemsCount": "93",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121104_2",
-		"productUrl": "",
-		"mediaItemsCount": "27",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121104_1",
-		"productUrl": "",
-		"mediaItemsCount": "37",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121028_2",
-		"productUrl": "",
-		"mediaItemsCount": "39",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121021_2",
-		"productUrl": "",
-		"mediaItemsCount": "76",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "20121021_1",
-		"productUrl": "",
-		"mediaItemsCount": "65",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "Animax2",
-		"productUrl": "",
-		"mediaItemsCount": "92",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "UxAnimax2",
-		"productUrl": "",
-		"mediaItemsCount": "16",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "CWTK11",
-		"productUrl": "",
-		"mediaItemsCount": "27",
-		"coverPhotoBaseUrl": ""
-	},
-	{
-		"title": "FFK11",
-		"productUrl": "https://www.flickr.com/photos/q4445552001/albums/72157701863507192",
-		"mediaItemsCount": "4",
-		"coverPhotoBaseUrl": "https://live.staticflickr.com/4884/32651818118_20d5eaedcc_w.jpg"
-	},
-	{
 		"title": "WS37 Day2",
 		"productUrl": "https://www.flickr.com/photos/q4445552001/albums/72157675199028028",
 		"mediaItemsCount": "117",
@@ -1506,5 +1296,17 @@ var List = [
 		"productUrl": "https://www.flickr.com/photos/q4445552001/albums/72157638978600416",
 		"mediaItemsCount": "69",
 		"coverPhotoBaseUrl": "https://live.staticflickr.com/2888/11532466754_f1b06177fa.jpg"
-	}
+	},
+	{
+		"title": "ws20d",
+		"productUrl": "https://photos.app.goo.gl/dheoSmaWSR3QqVbJ9",
+		"mediaItemsCount": "380",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/ncnt9YdUAmTyrVhEEDw66TbmShh6RWmcOeLbSS_1ffTq9M781BnIl9QWTQkn3voRmTvRnCCh3VWmIw5P4W7epDS5yHIKTKMHva3F3I8U-WzAMRNXY-J3CgAx8YKRdzSlCriACakp7Sw"
+	},
+	{
+		"title": "夢時代遊行",
+		"productUrl": "https://photos.app.goo.gl/zoZDirmnjUmKNdCY6",
+		"mediaItemsCount": "58",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/OIbOPgK8xOQEtiiRrKVNrKx94VaTU1AvHQp2XQa5iRxKqUg6FjdmnfMNcHLIcQjBZJ_CdO2beLbR0_kGCV3R-wjsofzkjKK0ebRvLATnnbhQv1ImNzyZYXpv5GACQ_9dXjSDb3Kc3ls"
+	},
 ]
