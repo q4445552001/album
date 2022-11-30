@@ -16,7 +16,7 @@ body {
 test {
 	position: fixed;
 	z-index: 99;
-	/* display: none; */
+	display: none;
 	top: 0;
 	right: 0;
 	padding: 10px;

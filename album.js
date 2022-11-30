@@ -1,24 +1,27 @@
-var PageSize = 18;
+var PageSize = 18; //每頁顯示項目數
 var Page = 0; //初始化頁數
-var ScrollHeight = 0;
+var ScrollHeight = 0; //初始化頁面總高度
 
 $(init);
 
 function init() {
+	//要觸發增加的高度
+	var ChangeHeight = 200;
 
 	SetTouchFooter();
 
 	$(window).off('scroll').on("scroll", function () {
-		var ChangeHeight = 200
-		let self = window.pageYOffset + window.innerHeight;
+		var self = window.pageYOffset + window.innerHeight;
+		// $("test").text(`${self}, ${ScrollHeight}`);
 
-		$("test").text(`${self}, ${ScrollHeight}`);
+		//自動往下增加
 		if (self >= ScrollHeight - ChangeHeight) {
 			Page++;
 			Get(Page);
 			ScrollHeight = $(document).height() - ChangeHeight;
 		}
 
+		//scroll 在頂時隱藏置頂icon
 		if (window.pageYOffset == 0)
 			$('.backtop').hide();
 		else
@@ -36,10 +39,10 @@ function Get(size) {
 	var data = List.filter(function (x, i) { return i >= size * PageSize && i < (size * PageSize + PageSize) });
 
 	$.each(data, (i, item) => {
-		item.coverPhotoBaseUrl = "";
+		// item.coverPhotoBaseUrl = "";
 		var html = `
                 <div class="gallery" title="${item.title}">
-                    <a target="_blank" href="${item.productUrl == "" ? "javascript:void(0)" : item.productUrl}">
+                    <a target="_blank" ${item.productUrl == "" ? "disabled" : "href=\"" + item.productUrl + "\""}>
                         <div class="img">
                             <img src="${item.coverPhotoBaseUrl == "" ? "./icon/no-image-icon-23494-Windows.ico" : item.coverPhotoBaseUrl}">
                         </div>
@@ -53,13 +56,17 @@ function Get(size) {
 	});
 }
 
+/** Set Touch Footer Event
+*/ 
 function SetTouchFooter() {
+	//footer 內的連結縮起時阻擋touch觸發
 	$(".footer a").on("click", function (e) {
 		if (window.matchMedia('(hover: none)').matches && $(".footer").is('.j_top-0')) {
 			e.preventDefault();
 		}
 	})
 
+	//footer touch 時縮拉
 	$(".footer").on("touchend", function () {
 		var $this = $(this);
 		if ($this.is('.j_top-0')) {
@@ -70,28 +77,35 @@ function SetTouchFooter() {
 		}
 	})
 
+	//window touch 時觸發
 	$(window).on("touchend", function (e) {
 		var $obj = $(e.target);
+
+		//若touch的地方是footer，就執行此步驟
 		if ($obj.closest(".footer").length == 0) {
 			footer_AddClass(false);
 		}
 
+		//若touch的地方是.gallery，就執行此步驟
 		if ($obj.closest(".gallery").length == 0) {
-			// e.preventDefault();
+			e.preventDefault();
 		}
 	})
 
+	//window touchmove 時觸發
 	$(window).on("touchmove", function () {
 		footer_AddClass(false);
-		// $(window).scroll();
 	})
 
+	//window resize 時觸發
 	$(window).resize(function () {
 		footer_AddClass(false)
 		ScrollHeight = $(document).height();
 	})
 }
 
+/** touch 模式時配合使用的副程式
+*/
 function footer_AddClass(open = false) {
 	var $footer = $(".footer");
 	if (open) {
@@ -108,6 +122,8 @@ function footer_AddClass(open = false) {
 	}
 }
 
+/** 回頂層
+*/
 function BackTop() {
 	$('html').stop().animate({ scrollTop: 0 }, 700, () => $('.backtop').hide());
 }
