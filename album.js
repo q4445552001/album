@@ -33,6 +33,7 @@ function Get(size) {
 	var data = List.filter(function (x, i) { return i >= size * PageSize && i < (size * PageSize + PageSize) });
 
 	$.each(data, (i, item) => {
+		item.coverPhotoBaseUrl = "";
 		var html = `
                 <div class="gallery" title="${item.title}">
                     <a target="_blank" href="${item.productUrl == "" ? "javascript:void(0)" : item.productUrl}">
