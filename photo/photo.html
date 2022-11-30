@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- <meta property="og:description" content="test"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="./List.js"></script>
+    <script src="./photo.js"></script>
     <title>嘎澤的相簿</title>
 </head>
 
@@ -36,7 +36,7 @@
 <script>
 
     $.each(List, (i, item) => {
-        var html = `<img src="${item.coverPhotoBaseUrl}">`;
+        var html = `<img src="${item.Url}">`;
 
         $('#gallery').append(html);
     });
