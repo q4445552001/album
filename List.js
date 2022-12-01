@@ -441,13 +441,6 @@ var List = [
 		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/3ea9RU_-JM1PxoaG2mlrAcDMKUULzCdFMQu2w0n1PIiUsGh0qJEZoWODrgMl0RgdQ2CeGaXZOb4S8Z1D8EkXFR46ATy7PUijW0xJfxrbUUXH_bUToW3tCzz_Xbuy02fJgGWQargwLA"
 	},
 	{
-		"title": "FFK11 Day1",
-		"productUrl": "https://photos.app.goo.gl/Y3UkrHNqueMpommn7",
-		"mediaItemsCount": "169",
-		"Des": "駁二",
-		"coverPhotoBaseUrl": ""
-	},
-	{
 		"title": "KDF17",
 		"productUrl": "https://photos.app.goo.gl/f1PYYkN2KbUV39hA8",
 		"mediaItemsCount": "68",
