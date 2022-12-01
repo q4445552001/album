@@ -66,11 +66,12 @@ function init() {
 		})
 
 		// showDevText();
-	}).scroll();
+	});
 
 	// $('#albums').empty();
 	Get(Page);
 	ScrollHeight = $(document).height() - ChangeHeight;
+	$(window).scroll();
 }
 
 function Get(size) {
