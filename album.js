@@ -26,7 +26,7 @@ function init() {
 
 	$(window).off('scroll').on("scroll", function () {
 		var self = window.pageYOffset + window.innerHeight;
-		if (par.dev) {
+		if (par.dev === "true") {
 			$("test").show();
 			$("test").text(`${self}, ${ScrollHeight}`);
 		};
