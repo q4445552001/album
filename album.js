@@ -1,12 +1,13 @@
 var PageSize = 18; //每頁顯示項目數
 var Page = 0; //初始化頁數
 var ScrollHeight = 0; //初始化頁面總高度
+var par = {};
 
 $(init);
 
 function init() {
 	//若有直連
-	// var par = hrefRequest();
+	par = hrefRequest();
 	// if (location.href.indexOf("file:///") == -1 && par.title) {
 	// 	for (var i in List) {
 	// 		if (List[i].title == decodeURI(par.title)) {
@@ -17,6 +18,7 @@ function init() {
 	// 	}
 	// }
 
+
 	//要觸發增加的高度
 	var ChangeHeight = 200;
 
@@ -24,7 +26,10 @@ function init() {
 
 	$(window).off('scroll').on("scroll", function () {
 		var self = window.pageYOffset + window.innerHeight;
-		// $("test").text(`${self}, ${ScrollHeight}`);
+		if (par.dev) {
+			$("test").show();
+			$("test").text(`${self}, ${ScrollHeight}`);
+		};
 
 		//自動往下增加
 		if (self >= ScrollHeight - ChangeHeight) {
@@ -38,6 +43,12 @@ function init() {
 			$('.backtop').hide();
 		else
 			$('.backtop').show();
+
+		//scroll 在底時隱藏底icon
+		if (window.pageYOffset + window.innerHeight == ScrollHeight + ChangeHeight)
+			$('.nextdown').hide();
+		else
+			$('.nextdown').show();
 	});
 
 	// $('#albums').empty();
@@ -51,17 +62,15 @@ function Get(size) {
 	var data = List.filter(function (x, i) { return i >= size * PageSize && i < (size * PageSize + PageSize) });
 
 	$.each(data, (i, item) => {
-		// item.coverPhotoBaseUrl = "";
+		if (par.dev) item.coverPhotoBaseUrl = "";
 		var html = `
-                <div class="gallery" title="${item.title}">
-                    <a target="_blank"${isNULL(item.productUrl, null) ? "href=\"" + item.productUrl + "\"" : "disabled"}>
-                        <div class="img">
-                            <img src="${isNULL(item.coverPhotoBaseUrl, null) ?? "./icon/no-image-icon-23494-Windows.ico"}">
-                        </div>
-                        <div class="desc">(${item.mediaItemsCount} 個項目)</div>
-                        <div class="desc">${item.title}<br>${isNULL(item.Des, null) ?? ""}</div>
-                    </a>
-                </div>
+                <a class="gallery" title="${item.title}" target="_blank"${isNULL(item.productUrl, null) ? "href=\"" + item.productUrl + "\"" : "disabled"}>
+                    <div class="img">
+                        <img src="${isNULL(item.coverPhotoBaseUrl, null) ?? "./icon/no-image-icon-23494-Windows.ico"}">
+                    </div>
+                    <div class="desc">(${item.mediaItemsCount} 個項目)</div>
+                    <div class="desc">${item.title}<br>${isNULL(item.Des, null) ?? ""}</div>
+                </a>
 		`;
 
 		$obj.append(html);
@@ -93,8 +102,11 @@ function SetTouchFooter() {
 	$(window).on("touchend", function (e) {
 		var $obj = $(e.target);
 
-		//若touch的地方是footer，就執行此步驟
+		//若touch的地方不是.footer，就執行此步驟
 		if ($obj.closest(".footer").length == 0) {
+			if ($(".footer").is('.j_top-0')) {
+				e.preventDefault();
+			}
 			footer_AddClass(false);
 		}
 
@@ -139,10 +151,15 @@ function footer_AddClass(open = false) {
 
 /** 回頂層
 */
-function BackTop() {
+function Top() {
 	$('html').stop().animate({ scrollTop: 0 }, 700, () => $('.backtop').hide());
 }
 
+/** 回頂層
+*/
+function Down() {
+	$('html').stop().animate({ scrollTop: ScrollHeight }, 700);
+}
 
 /*副程式****************************************************************************************************/
 
