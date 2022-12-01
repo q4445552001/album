@@ -2,6 +2,7 @@ var PageSize = 18; //每頁顯示項目數
 var Page = 0; //初始化頁數
 var ScrollHeight = 0; //初始化頁面總高度
 var par = {};
+var DevText = "";
 
 $(init);
 
@@ -25,11 +26,12 @@ function init() {
 	SetTouchFooter();
 
 	$(window).off('scroll').on("scroll", function () {
+		DevText = "";
 		var self = window.pageYOffset + window.innerHeight;
-		if (par.dev === "true") {
-			$("test").show();
-			$("test").text(`${self}, ${ScrollHeight}`);
-		};
+		// if (par.dev === "true") {
+		// 	$("test").show();
+		// 	DevText += `${self}, ${ScrollHeight}`;
+		// };
 
 		//自動往下增加
 		if (self >= ScrollHeight - ChangeHeight) {
@@ -49,7 +51,22 @@ function init() {
 			$('.nextdown').hide();
 		else
 			$('.nextdown').show();
-	});
+
+		//頁數顯示
+		var ListLen = List.length;
+		$(".gallery").each(function () {
+			var $this = $(this);
+			var top = $this.offset().top;
+			// if (par.dev === "true") {
+			// 	DevText += `<br>top: ${top}, pageYOffset: ${window.pageYOffset}`;
+			// }
+			if (top > window.pageYOffset && top < self) {
+				$("page").text(`${$this.index() + 1} / ${ListLen}`)
+			}
+		})
+
+		// showDevText();
+	}).scroll();
 
 	// $('#albums').empty();
 	Get(Page);
@@ -162,6 +179,10 @@ function Down() {
 }
 
 /*副程式****************************************************************************************************/
+
+function showDevText() {
+	$("test").html(DevText);
+}
 
 /**判斷是否null
 * @param {String} v 要判斷的文字

@@ -27,8 +27,8 @@ test {
 /* Back Top */
 .backtop {
 	position: fixed;
-	top: 10px;
-	left: 10px;
+	top: 4px;
+	left: 4px;
 	cursor: pointer;
 	z-index: 4;
 	display: none;
@@ -36,11 +36,31 @@ test {
 
 }
 
+/* Page */
+page {
+	position: fixed;
+	z-index: 4;
+	top: 50%;
+	left: -25px;
+	width: 100px;
+	padding: 4px;
+	transform: rotate(270deg) translateY(-50%);
+	background-color: #ccc;
+	opacity: 0.6;
+	transition: all 0.1s ease-out;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+page:hover {
+	opacity: 1;
+}
+
 /* Next Down */
 .nextdown {
 	position: fixed;
-	bottom: 10px;
-	left: 10px;
+	bottom: 4px;
+	left: 4px;
 	cursor: pointer;
 	z-index: 4;
 	transform: rotate(180deg);
