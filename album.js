@@ -169,13 +169,13 @@ function footer_AddClass(open = false) {
 /** 回頂層
 */
 function Top() {
-	$('html').stop().animate({ scrollTop: 0 }, 700, () => $('.backtop').hide());
+	$('html').stop().animate({ scrollTop: 0 }, 200, () => $('.backtop').hide());
 }
 
 /** 回頂層
 */
 function Down() {
-	$('html').stop().animate({ scrollTop: ScrollHeight }, 700);
+	$('html').stop().animate({ scrollTop: ScrollHeight }, 200);
 }
 
 /*副程式****************************************************************************************************/
