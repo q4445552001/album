@@ -84,7 +84,7 @@ function Get(size) {
 		var html = `
                 <a class="gallery" title="${item.title}" target="_blank" ${isNULL(item.productUrl, null) ? "href=\"" + item.productUrl + "\"" : "disabled"}>
                     <div class="img">
-                        <img src="${isNULL(item.coverPhotoBaseUrl, null) ?? "./icon/no-image-icon-23494-Windows.ico"}">
+                        <img src="${isNULL(item.coverPhotoBaseUrl, null) ?? "./icon/no-image-icon-23494-Windows.ico"}" loading="lazy">
                     </div>
                     <div class="desc">(${item.mediaItemsCount} 個項目)</div>
                     <div class="desc">${item.title}<br>${isNULL(item.Des, null) ?? ""}</div>
