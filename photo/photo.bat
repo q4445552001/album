@@ -10,4 +10,4 @@ set dir=%dir:\=//%
         echo {"Url": "%dir%//%%~A"},
     )
     echo ]
-) > photo.js
+) > %~dp0photo.js
