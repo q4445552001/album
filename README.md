@@ -13,7 +13,7 @@
    *大量預覽縮圖產生器
    - photo.bat
      *照片List產生器
-   - photo.html
-     *照片排版第1版(棄用)
-   - photo2.html
-     *照片排版第2版
+   - photoVertical.html
+     *直式照片排版
+   - photoParallel.html
+     *橫式照片排版
