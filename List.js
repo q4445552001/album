@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "CWTK40 Day2",
+		"productUrl": "https://photos.app.goo.gl/kYUZPT7WRpYYbxbAA",
+		"mediaItemsCount": "138",
+		"Des": "高雄國際會議中心",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/X4duOhnau12amGp5ke0-lEktcJJ9O1C9KARyKaYNINq1ngkK66vrgjyYmRfKrsI_piJxUDT8xHavsAVX8jloFp89TgUyVZSBWMKQefYqK5kzrUpR3Ia8VZHXzGAAW9UwZmtq0NaW5sk"
+	},
+	{
+		"title": "CWTK40 Day1",
+		"productUrl": "https://photos.app.goo.gl/bvyiLFR9DU1Lnob46",
+		"mediaItemsCount": "118",
+		"Des": "高雄國際會議中心",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/sR9RWLKdgnurKMvK6_i8g-E8F7jKDTSR406BOYaJPDIoqrRpPW9xsP9FJ44LabghlQi_Ef_M2plL_TXUhTY47V5RbnNvcJxj3agq7cKhwOjVTuj8YOlpSyDqB3DBnwfBCVGpK0pagGU"
+	},
+	{
 		"title": "KDF21(KFC03)",
 		"productUrl": "https://photos.app.goo.gl/jBe94YNsDBPKPqoL8",
 		"mediaItemsCount": "161",
