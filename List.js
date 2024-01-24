@@ -3,14 +3,14 @@ var List = [
 		"title": "CWTK43 Day2",
 		"productUrl": "https://photos.app.goo.gl/oGppEE5dYsZVBgYt9",
 		"mediaItemsCount": "148",
-		"Des": "高雄國際會議中心",
+		"Des": "小港社教館",
 		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/ABLVV87LiWYlWC5Yr_KQ5gi2rRpP02IU4Lncskchtvf_RsvyARpaETxg2tdgqcELcr7s0ydtxdsOpt9EaXYJI3xHNlzNa2yvMEIXe6hrsScZHilVE4j_6dRU"
 	},
 	{
 		"title": "CWTK43 Day1",
 		"productUrl": "https://photos.app.goo.gl/Lq2LMrQsrLz995Ne7",
 		"mediaItemsCount": "118",
-		"Des": "高雄國際會議中心",
+		"Des": "小港社教館",
 		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/ABLVV85b2FEtTyBDqiASqxkJIpkuNU-WyWl6y3zHdmvnKKwQbi_1TU3-eKBN0OuQyxdRRdxnMklrF2J7n5ibvALUfBPyjr7BQgrz_aGG3ZRByMb8iDNFoI1B"
 	},
 	{
