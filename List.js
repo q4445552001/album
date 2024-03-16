@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "CWTK44 Day2",
+		"productUrl": "https://photos.app.goo.gl/ajCin4LVLrd7ZwM76",
+		"mediaItemsCount": "131",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOFNDEHlpyK458gEVoqkcWS4l3mIENSrfQ9Vx_FjWpKaSuVmthqwUspDw1EUKRVCWZsluyMephUOYoyzojTlgy-XqiLLXywqw4xmMJug5UDCBIKLHtY"
+	},
+	{
+		"title": "CWTK44 Day1",
+		"productUrl": "https://photos.app.goo.gl/UQcP8yQ4n77zLxyS9",
+		"mediaItemsCount": "125",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczPbB0yBoHr7XY_jadsllpEWBV13fVhWZ4R9s5QjfLvpemcXSi5vYL85KkwTAEo5-ZTrpn1uDJnCJskfzCMlMZlYsmT2XXlwCqvXh6VFt7sAxc5xCgnZ"
+	},
+	{
 		"title": "CWTK43 Day2",
 		"productUrl": "https://photos.app.goo.gl/oGppEE5dYsZVBgYt9",
 		"mediaItemsCount": "148",
