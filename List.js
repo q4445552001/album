@@ -1,10 +1,17 @@
 var List = [
 	{
-		"title": "2024-Coser幻日祭",
-		"productUrl": "https://photos.app.goo.gl/fWiFGyifmiLFL3Ku5",
-		"mediaItemsCount": "25",
-		"Des": "高雄火車站地下街",
-		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMexv9r0LgI9EHtaXTNT7OZCFbY8_G90m5QoHlGwoH87P3jge7BH1K630S-Mv8bokoBjmMdmfDGx0DnpCI_EDy6tNDv49JzcVQ1q17Tzbu2PSDGuoSE"
+		"title": "2024高捷夏戀動漫祭-7月 Day2",
+		"productUrl": "https://photos.app.goo.gl/zyq4VqfSMZqACKyL6",
+		"mediaItemsCount": "116",
+		"Des": "高雄捷運美麗島站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczPe4QCWbb02XBjm4gslF1NtZrwfra37DmzYjHACM-skfe9D90m3qA4K-r57h6Mte8XPSYLk7y-slOfvaQ9M1W8nv_0jGz2kqCuTvHXAjA3C_riQ0vLu"
+	},
+	{
+		"title": "2024高捷夏戀動漫祭-7月 Day1",
+		"productUrl": "https://photos.app.goo.gl/swCK9RPFqKBEttjj7",
+		"mediaItemsCount": "89",
+		"Des": "高雄捷運美麗島站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczPYGRd_LuSjzz0F62FSxSK1ngHLhMDwfIpiIzCq2bLQlUroGxE09uXUsnTT3OEUOeKMTfaUHLZ5NrurawNxEPKnbhRYuBXpeHlIQARukKJzoGyK7ZSe"
 	},
 	{
 		"title": "WS48 Day2",
