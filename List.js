@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "2024高捷夏戀動漫祭-8月 Day2",
+		"productUrl": "https://photos.app.goo.gl/NvMN4mVUvnaoPMoW8",
+		"mediaItemsCount": "100",
+		"Des": "高雄捷運美麗島站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNebx71Yrd4K11bT7Md0ftsFHPrLVq-ryHik0dNEISHW7Pe3X570Pu6vbYjtMrlHpB1TFsU6seG2Q6ED3xTr_t2J-PNZE5QDVOFrhHaJEBE9VZx77K2"
+	},
+	{
+		"title": "2024高捷夏戀動漫祭-8月 Day1",
+		"productUrl": "https://photos.app.goo.gl/rDpmeRKQFXGmNB9S9",
+		"mediaItemsCount": "113",
+		"Des": "高雄捷運美麗島站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMoaFT8oK98MBJ-j1SKkAONYzCSSVUxLbjVp0Suom2KS1kbVb_N3x9V70Nv0KvKTxZA6yAbQsGrHjmGF7bAHM-jV60WZogDon2oiIE40EYR8qPlgKhC"
+	},
+	{
 		"title": "202408-阿妹辛",
 		"productUrl": "https://photos.app.goo.gl/DfW2VkNDtgboKJtU6",
 		"mediaItemsCount": "74",
