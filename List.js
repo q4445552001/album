@@ -1,8 +1,15 @@
 var List = [
 	{
+		"title": "KDF26",
+		"productUrl": "https://photos.app.goo.gl/QoGc3hQSun7mTJi1A",
+		"mediaItemsCount": "96",
+		"Des": "崑山科技大學",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOvslplo0SQWTAmR7xr7nqhOxTGRZv_ZBB4shX6d_JhM0RU5798M77qSR2BX7NZPVfTb9Omf7w5OrkL6ZLZHPOEidxZ0O3Y7ajzJ91L88VwqHmbknzw"
+	},
+	{
 		"title": "202411-Coser幻日祭",
 		"productUrl": "https://photos.app.goo.gl/UZzGoTKyD2qo7aTb9",
-		"mediaItemsCount": "155",
+		"mediaItemsCount": "102",
 		"Des": "高雄火車站",
 		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczP0ivRKgT6uW_TW3iB80kp_DkqJV4vOzDsPHoaplKjS5ssL6Cmg-ji6JleSGUbyIGgTNPWef52npcczSG020ijAiU8CQR8W1Q8kxjh2KC446wHFlnvA"
 	},
