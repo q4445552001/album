@@ -1,5 +1,12 @@
 var List = [
 	{
+		"title": "202503-新光幻日季",
+		"productUrl": "https://photos.app.goo.gl/LXqiQcTLZ86XnNxi7",
+		"mediaItemsCount": "85",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczP862tBgpXgn1xcda8G9t-A_qcaIkGjRV46z247LW4Yir9hk03j5gnrSKVBD5CMQjtk15s2xO_N2lVSB2_pAyVsqO5VlLRW6pBEqeuWczqQz1gZtAc-"
+	},
+	{
 		"title": "CWTK47 Day2",
 		"productUrl": "https://photos.app.goo.gl/i9MKB6NTd1Chuxct9",
 		"mediaItemsCount": "37",
