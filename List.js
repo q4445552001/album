@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "南應鳴夏宴(20250504)",
+		"productUrl": "https://photos.app.goo.gl/q8946d4VLyK2TrYJA",
+		"mediaItemsCount": "44",
+		"Des": "台南應用大學",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNofew9hv291qVS2DhkE7LBDnku82i7-3rqi-lTOx74nkhqc_MtfRoLr23y-yWUmE3TpgqYVOtYl1rjmSTMJtiK-3rQyjDY8w5Qs-Ls5OwZ1lHetpWe"
+	},
+	{
+		"title": "KDF27(20250503)",
+		"productUrl": "https://photos.app.goo.gl/pDDQVGwUuQeXfYbb6",
+		"mediaItemsCount": "67",
+		"Des": "崑山科技大學",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczO_Ky4XZUO5VZGhISs59pgjiv78VALetv4AroSfAzT2OgxjPsUjEid7Qlg_aMGuUMblQhnFuYgJh_iLvtYRyfAWRBIExTyYB_y9cJuC-TwMGB9Ubrnn"
+	},
+	{
 		"title": "202404美麗島幻日祭(202504-12,13)",
 		"productUrl": "https://photos.app.goo.gl/6BuAvGV4zjusRF1n9",
 		"mediaItemsCount": "61",
