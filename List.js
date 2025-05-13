@@ -1,5 +1,12 @@
 var List = [
 	{
+		"title": "SZAniFest樹人校園動漫節(20250510)",
+		"productUrl": "https://photos.app.goo.gl/msvzLcZ8jAdnj1KP9",
+		"mediaItemsCount": "52",
+		"Des": "樹人醫專",
+		"coverPhotoBaseUrl": "data-latest-bg="https://lh3.googleusercontent.com/pw/AP1GczP4dnsoayE-E4_Vo0k9wXoaxRUxuIeVtolwzwAoIEm2LKN1e6jtKKtGjWhk8AemynWNgnUenXPLG_MCS1vB8t3qAENccHNzWjcz_hWnxApK15XIZurn"
+	},
+	{
 		"title": "南應鳴夏宴(20250504)",
 		"productUrl": "https://photos.app.goo.gl/q8946d4VLyK2TrYJA",
 		"mediaItemsCount": "44",
