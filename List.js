@@ -4,7 +4,7 @@ var List = [
 		"productUrl": "https://photos.app.goo.gl/msvzLcZ8jAdnj1KP9",
 		"mediaItemsCount": "52",
 		"Des": "樹人醫專",
-		"coverPhotoBaseUrl": "data-latest-bg="https://lh3.googleusercontent.com/pw/AP1GczP4dnsoayE-E4_Vo0k9wXoaxRUxuIeVtolwzwAoIEm2LKN1e6jtKKtGjWhk8AemynWNgnUenXPLG_MCS1vB8t3qAENccHNzWjcz_hWnxApK15XIZurn"
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczP4dnsoayE-E4_Vo0k9wXoaxRUxuIeVtolwzwAoIEm2LKN1e6jtKKtGjWhk8AemynWNgnUenXPLG_MCS1vB8t3qAENccHNzWjcz_hWnxApK15XIZurn"
 	},
 	{
 		"title": "南應鳴夏宴(20250504)",
