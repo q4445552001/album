@@ -1,10 +1,10 @@
 var List = [
 	{
-		"title": "202507美麗島幻日祭(202507-12,13)",
-		"productUrl": "https://photos.app.goo.gl/pYAd3T9j9p1RE93b8",
-		"mediaItemsCount": "82",
-		"Des": "高雄美麗島",
-		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMieYxa3Kbhn3oKlOM9-EoZu6MjFqmfeggAREWlLgnZSDVvsIXC4AyWcT6kIk4VUkhsJek1SyG1o6vMQR7Iytz45ORDBYJj61kRhrFca-SHYFTT6t_F"
+		"title": "202507夏戀高捷動漫祭(202507-19,20)",
+		"productUrl": "https://photos.app.goo.gl/CFKnq5SQ6eEM8Nqj7",
+		"mediaItemsCount": "57",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOilEE58mqSPZ6h7CiMN2oTqu4tQDgWT8_9Q9mwVC4nSGW0fUjPUvloTXWBT98hx43dBP2J0ZyI7U0wBLSBUgM7UVdyTt6sPRfE1RPZ-a2KgyJFO2tJ"
 	},
 	{
 		"title": "202506高火幻日祭(202506-14,15)",
