@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "WS50(202508-09,10)",
+		"productUrl": "https://photos.app.goo.gl/fiAA2avbRnW1qs5h8",
+		"mediaItemsCount": "92",
+		"Des": "小港社教館",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMDoZH1-0Swbv3lRcUkUtHX6g0RQDq0Ym6-YSfyequIEGlORyeeuONBVO4wcX6qWnrJc2b0QNpALt-sFXq5_jzjZU5RVHYsfeBRR-45sLVudUXjqMZ9"
+	},
+	{
+		"title": "202508-高火幻日季(202508-02,03)",
+		"productUrl": "https://photos.app.goo.gl/bvNHtgaxagTKpA6m6",
+		"mediaItemsCount": "81",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOc5afaU_c4s6VnGV7PMP7-07vp5o7NStx9mlb2HuW6s8jXaS698micfzIPW16LuCPRaNzUu_tGTjeEgg2UH_gXhFNZVewQZ_Dk8RuYTp3ullZUa7cl"
+	},
+	{
 		"title": "2025存在革命(202507-26,27)",
 		"productUrl": "https://photos.app.goo.gl/kH8NvXSY2oiuja6EA",
 		"mediaItemsCount": "60",
