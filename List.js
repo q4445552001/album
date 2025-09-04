@@ -1,5 +1,12 @@
 var List = [
 	{
+		"title": "202508夏戀高捷動漫祭(202508-30,31)",
+		"productUrl": "https://photos.app.goo.gl/C9LRsqnzs1bDMKXAA",
+		"mediaItemsCount": "63",
+		"Des": "高雄捷運美麗島站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMwdkAIF39YHbDM52USmwdCit1aarNLFPrdJoewVEOKUwOVJklGhdkAyrzcCjRo-1McYq5DH9bQzUjdLHBt621Wfa6-d8b5S_HKs_BegxSRuGfo6mJv"
+	},
+	{
 		"title": "WS50(202508-09,10)",
 		"productUrl": "https://photos.app.goo.gl/fiAA2avbRnW1qs5h8",
 		"mediaItemsCount": "92",
@@ -26,6 +33,13 @@ var List = [
 		"mediaItemsCount": "57",
 		"Des": "高雄車站",
 		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOilEE58mqSPZ6h7CiMN2oTqu4tQDgWT8_9Q9mwVC4nSGW0fUjPUvloTXWBT98hx43dBP2J0ZyI7U0wBLSBUgM7UVdyTt6sPRfE1RPZ-a2KgyJFO2tJ"
+	},
+	{
+		"title": "202507美麗島幻日季(202507-12,13)",
+		"productUrl": "https://photos.app.goo.gl/pYAd3T9j9p1RE93b8",
+		"mediaItemsCount": "82",
+		"Des": "高雄捷運美麗島站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOBLIqZ-s8WAksXS-bcV_-_WFwbP-Q0NNrshApSpxYSpHBlMf6B9RF3y0V-mLjf5mLjksdsRoOR1L_dOX7kIec0_FGnMyJ_dHcREwNC2h3qGXmXy9kS"
 	},
 	{
 		"title": "202506高火幻日祭(202506-14,15)",
