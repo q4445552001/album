@@ -14,6 +14,13 @@ var List = [
 		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczPSsVT_4MjNWoTbIxcJ6rMBcob0_-hgonukuEthrWnqiJeYzIApu0OmdMGRRhbVZNqg_IRf0hMH2US3cEkIxtWUnxugc3G9DRJSsSF_qnqafMaUk8jn"
 	},
 	{
+		"title": "202508夏戀高捷動漫祭(202508-30,31)",
+		"productUrl": "https://photos.app.goo.gl/C9LRsqnzs1bDMKXAA",
+		"mediaItemsCount": "63",
+		"Des": "高雄捷運美麗島站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMwdkAIF39YHbDM52USmwdCit1aarNLFPrdJoewVEOKUwOVJklGhdkAyrzcCjRo-1McYq5DH9bQzUjdLHBt621Wfa6-d8b5S_HKs_BegxSRuGfo6mJv"
+	},
+	{
 		"title": "WS50(202508-09,10)",
 		"productUrl": "https://photos.app.goo.gl/fiAA2avbRnW1qs5h8",
 		"mediaItemsCount": "92",
