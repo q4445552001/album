@@ -1,10 +1,17 @@
 var List = [
 	{
-		"title": "202508夏戀高捷動漫祭(202508-30,31)",
-		"productUrl": "https://photos.app.goo.gl/C9LRsqnzs1bDMKXAA",
-		"mediaItemsCount": "63",
-		"Des": "高雄捷運美麗島站",
-		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMwdkAIF39YHbDM52USmwdCit1aarNLFPrdJoewVEOKUwOVJklGhdkAyrzcCjRo-1McYq5DH9bQzUjdLHBt621Wfa6-d8b5S_HKs_BegxSRuGfo6mJv"
+		"title": "CWTK48 Day2(20250907)",
+		"productUrl": "https://photos.app.goo.gl/fgkEjRzpYxgTqST8A",
+		"mediaItemsCount": "41",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczM3-U1POmhsVlVjmfruns3XilxM5kqVzlJSnwLM2-RvAsdxvakaNwx1ecChaNGn6KoCbQLuKs4p6X_mZRejopfc_NKoklLIeDGVmrQEOxs8_YGOphFh"
+	},
+	{
+		"title": "CWTK48 Day1(20250906)",
+		"productUrl": "https://photos.app.goo.gl/pi5Wvg7JgGRqYx8J9",
+		"mediaItemsCount": "47",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczPSsVT_4MjNWoTbIxcJ6rMBcob0_-hgonukuEthrWnqiJeYzIApu0OmdMGRRhbVZNqg_IRf0hMH2US3cEkIxtWUnxugc3G9DRJSsSF_qnqafMaUk8jn"
 	},
 	{
 		"title": "WS50(202508-09,10)",
