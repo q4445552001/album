@@ -1,10 +1,17 @@
 var List = [
 	{
-		"title": "CWTK48 Day2(20250907)",
-		"productUrl": "https://photos.app.goo.gl/fgkEjRzpYxgTqST8A",
-		"mediaItemsCount": "41",
-		"Des": "左營新光三越",
-		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczM3-U1POmhsVlVjmfruns3XilxM5kqVzlJSnwLM2-RvAsdxvakaNwx1ecChaNGn6KoCbQLuKs4p6X_mZRejopfc_NKoklLIeDGVmrQEOxs8_YGOphFh"
+		"title": "CWTT34 Day2(20250914)",
+		"productUrl": "https://photos.app.goo.gl/ue2JcyPyvQrWp6dHA",
+		"mediaItemsCount": "44",
+		"Des": "台中世界貿易中心",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMquru9UjKeFUARLBsMrJCh4634hl6C7qpcYmjW4YSidG5h7BONmGtb8SMrVDqPBzmmJpGI957WsuOxDiSpdFNqaGw4TWVMMtiC7bo532VL0MigZpiv"
+	},
+	{
+		"title": "CWTT34 Day1(20250913)",
+		"productUrl": "https://photos.app.goo.gl/aceKGsY6EQAPkTss5",
+		"mediaItemsCount": "36",
+		"Des": "台中世界貿易中心",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczPviuFZL42vcYi0CPLIVOiJmPYYbpLW7XvM9UJh8p3czSM2LzWBlwYo8kebBMsZxyWWzpwgRmMytsYmOpt_5ygjXlssRTX8MzmKJOI4xHFTBNXm5BiN"
 	},
 	{
 		"title": "CWTK48 Day1(20250906)",
