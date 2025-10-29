@@ -1,5 +1,40 @@
 var List = [
 	{
+		"title": "202510夢時代幻日季(202510-18,19)",
+		"productUrl": "https://photos.app.goo.gl/2piesmCK2KpZRm7i6",
+		"mediaItemsCount": "25",
+		"Des": "高雄夢時代",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczO2WmprKPxmS2ki4mUHl_pCMvXcsomxuTOPyUMK8Gw6B1XYEAsh7vhHmonEdk8f9acKqYuN8AxOQT6YuhVoSM2yFd1x-KeLEfU27TJhRllbgF_HxfoC"
+	},
+	{
+		"title": "2025巨蛋國際動漫節 Day4(20251013)",
+		"productUrl": "https://photos.app.goo.gl/Aw4ujjg5jShCMkLu7",
+		"mediaItemsCount": "19",
+		"Des": "高雄巨蛋",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczPXR9FN20jMw80r0_jSsAt3VXPWbyqKZFCkAqlUmmgcSvFZ5uRCZjo-yzL8jh-zTDr2WBlT6MABabc-5Nb_yWr6aFq63HprthR6eSeB8zCYvDPzLeyR"
+	},
+	{
+		"title": "2025巨蛋國際動漫節 Day3(20251012)",
+		"productUrl": "https://photos.app.goo.gl/ynJrSxboVzZuAk8n8",
+		"mediaItemsCount": "36",
+		"Des": "高雄巨蛋",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMRhq-9Zy4ZqfvGQ24woNFUKElMXeDglp-fjEau-oHGUANuT6FDnvJu0N7q7XNPdwrwOr4cr8zwOc14H2a3RxrMbMlBkEJdn3n1zt2zLhZkXDhN-6Ey"
+	},
+	{
+		"title": "2025巨蛋國際動漫節 Day2(20251011)",
+		"productUrl": "https://photos.app.goo.gl/NarN3BX1JyqSxw6W9",
+		"mediaItemsCount": "38",
+		"Des": "高雄巨蛋",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOZmsRqTvS4R9_ndaUZu5UtqwbVeTMeRtLqE0azcRjuIsaTnIoSROxx6kjm28e8xdC7u6yGC9so2itwcEhQZkmXhtZLM60ZjljOJMqeuP23kIkllM6t"
+	},
+	{
+		"title": "2025巨蛋國際動漫節 Day1(20251010)",
+		"productUrl": "https://photos.app.goo.gl/TzGBc78hHCgGvQpt7",
+		"mediaItemsCount": "40",
+		"Des": "高雄巨蛋",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczP3JPWkN1KEvjNvxxEcaarj3qDCd3egdqyB_W1qhgW98KeMOKS-RBiwZh1eC_0NeIhHEs-sEWdo7POYrfbc5pszQmoFrcRg8KaVFxFlU9h3VFYIU2Dt"
+	},
+	{
 		"title": "秋幕奇幻祭(202509-27,28)",
 		"productUrl": "https://photos.app.goo.gl/s6AE8GbCt68CLwJT9",
 		"mediaItemsCount": "52",
