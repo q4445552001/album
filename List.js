@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "奇幻動漫祭02 (20251108) Day2",
+		"productUrl": "https://photos.app.goo.gl/qBTS27LfNdvDpqCM8",
+		"mediaItemsCount": "41",
+		"Des": "高雄橋頭糖廠",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMu3eaUj-Z4wrjKlFmWWXPBVnt475akIOgmy98qW5bRDrJQy2hiBRzfCqIoCzAMk3B5iN0hNVLeU1gQcoRjilbv6LgZARQVq3eT_yl1AyzOZ3XZFQAj"
+	},
+	{
+		"title": "奇幻動漫祭02 (20251108) Day1",
+		"productUrl": "https://photos.app.goo.gl/uJpC69SPmYBHjsNL9",
+		"mediaItemsCount": "52",
+		"Des": "高雄橋頭糖廠",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczM5ujZbGZT5j6DqHofKRJWr3D-y-0TR74C1-QZdfZEfXbPgbTSK-GPIDwWqyAbvXT2ggs1DBr3ebHncOK7OQDCEC67V8bjr2QvNFHfvdfTosKEgupi9"
+	},
+	{
 		"title": "202510夢時代幻日季(202510-18,19)",
 		"productUrl": "https://photos.app.goo.gl/2piesmCK2KpZRm7i6",
 		"mediaItemsCount": "25",
