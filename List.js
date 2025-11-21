@@ -1,13 +1,27 @@
 var List = [
 	{
-		"title": "奇幻動漫祭02 (20251108) Day2",
+		"title": "2025冬戀高捷動漫祭 Day2(20251116)",
+		"productUrl": "https://photos.app.goo.gl/2TTm26sy4J3xnWw77",
+		"mediaItemsCount": "24",
+		"Des": "高雄捷運美麗島站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNM_f0tkufU9V_IQ_CJsho598hnKQ48KZ7qBJUrFtU7C7blMjx4I0m8GXA2NPvGSWIx9bpB9CfKQ45RMSdaTecPfiF_Kwu1IThggHd0Nv8iLpio-Rh2"
+	},
+	{
+		"title": "2025冬戀高捷動漫祭 Day2(20251116)",
+		"productUrl": "https://photos.app.goo.gl/2q9wV9aPLbgFw8N47",
+		"mediaItemsCount": "35",
+		"Des": "高雄捷運美麗島站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczP12CyAcp2j2PQVLdu2Wcrt4yGCIR9AwSq44pANTt8wH2wyYFkuTp0LrYTP3Zap9z04Bnomebk2yyLG0PHzrbkkLwDUM8m89zi6TpDOdfVhTeqZkWCU"
+	},
+	{
+		"title": "奇幻動漫祭02 Day2(20251108)",
 		"productUrl": "https://photos.app.goo.gl/qBTS27LfNdvDpqCM8",
 		"mediaItemsCount": "41",
 		"Des": "高雄橋頭糖廠",
 		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMu3eaUj-Z4wrjKlFmWWXPBVnt475akIOgmy98qW5bRDrJQy2hiBRzfCqIoCzAMk3B5iN0hNVLeU1gQcoRjilbv6LgZARQVq3eT_yl1AyzOZ3XZFQAj"
 	},
 	{
-		"title": "奇幻動漫祭02 (20251108) Day1",
+		"title": "奇幻動漫祭02 Day1(20251108)",
 		"productUrl": "https://photos.app.goo.gl/uJpC69SPmYBHjsNL9",
 		"mediaItemsCount": "52",
 		"Des": "高雄橋頭糖廠",
