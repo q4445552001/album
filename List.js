@@ -1,5 +1,40 @@
 var List = [
 	{
+		"title": "CWTK49 Day2(20251221)",
+		"productUrl": "https://photos.app.goo.gl/Jv8waJGctq8FvULh7",
+		"mediaItemsCount": "34",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNT4nCQbCnRo7dw6WMyW7gGcLrYOxku9vWQNqXS-Yw0XG-f5eFye9AnA7hJSN38IPQB8OtPuEceuEigHf14CNNW_uGa5XLKR1tPxCVpEBFJ6owIYvZz"
+	},
+	{
+		"title": "CWTK49 Day1(20251220)",
+		"productUrl": "https://photos.app.goo.gl/YA3FL8FgbrKzFyXS7",
+		"mediaItemsCount": "20",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOupN5obeynpmYTT6FtQcg1t6LP8ryZoPuy34w4cvkxX8GQAr4JerE__yrPkv825-018YsSZBdx7wBWqJX-BRYpzhWsNs32RTQiWBw2PByQUiYL2Jbw"
+	},
+	{
+		"title": "2025高雄駁二動漫祭 Day2(20251214)",
+		"productUrl": "https://photos.app.goo.gl/QvMeNnVUhP8RiYzHA",
+		"mediaItemsCount": "47",
+		"Des": "高雄駁二藝術特區",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMaMaHguB-WhCrYs4-6JRxSKOP_NlbPnS8HeGu_Nvwh8p6_ddi1ctbryKJPg9anEXuYyIEhWBNZimIaIH6El_fRjbN7xKQ6AKlbz1rt7XUu1EBOXN_5"
+	},
+	{
+		"title": "2025高雄駁二動漫祭 Day1(20251213)",
+		"productUrl": "https://photos.app.goo.gl/BLu4AbovwHgbBq8Z7",
+		"mediaItemsCount": "60",
+		"Des": "高雄駁二藝術特區",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMlHATasCK0T0txFKCUtX8MXWlM8mMgg6RMgTsXLtlVVOCRr1dcroUXdYWKKP2GNAV9sIUq4UH_q80q2Zt5_L5EuEpG_OV6Wa-MfFs1oOiacNunGqYF"
+	},
+	{
+		"title": "奇幻動漫祭相見左營新光周年慶來熱鬧(20251130)",
+		"productUrl": "https://photos.app.goo.gl/DvwqJXPnEJqnkZwu9",
+		"mediaItemsCount": "24",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMzSs9tvCzJRBtm3pwNHdpz4PMr0z4MkEN-CzvEgDppJ3X8N9CALYvkoC7rIFkMgRYgKsWAf8JUJD-xCfbNTo4JvkA3bAaAFTw1_6YopUeph6tmFdmI"
+	},
+	{
 		"title": "2025-11月高火幻日祭 Day2(20251123)",
 		"productUrl": "https://photos.app.goo.gl/26p67id3nzNdPBhR7",
 		"mediaItemsCount": "21",
