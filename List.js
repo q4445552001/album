@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "ANIMKT&拉邦結派 Day2(20260118)",
+		"productUrl": "https://photos.app.goo.gl/BLEmNpguzYAyKFtA6",
+		"mediaItemsCount": "40",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczPXC7hUYDwYBYBOJaBpUQh1O8puKBEO6JyOfik10XGpindFJKUTEgjElYRJ4djMdOnli2C8tVWmM2bvgftpm2lY3RW4ZCiTGrLWEluWGPI8C7h0Sc-o"
+	},
+	{
+		"title": "ANIMKT&拉邦結派 Day1(20260117)",
+		"productUrl": "https://photos.app.goo.gl/8DCSJgmLb28EejGw8",
+		"mediaItemsCount": "14",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMNr_N5dap8F7PUZd0jaoXYyN61gc6R-Eu2-gXJVShZiM92JufEisJDqeUK1svFhw-Z7JdNjlcqeLy7K018nTeaEMWpslC1AbuCk_NSQ-mbFxhQQoA0"
+	},
+	{
 		"title": "CWTK49 Day2(20251221)",
 		"productUrl": "https://photos.app.goo.gl/Jv8waJGctq8FvULh7",
 		"mediaItemsCount": "34",
