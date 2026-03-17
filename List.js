@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "CWTK50 Day2(20260308)",
+		"productUrl": "https://photos.app.goo.gl/J1mwGBwJTAW1r1R7A",
+		"mediaItemsCount": "40",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNAAZW6UgkmqdMM-f9CXz_wujUN96H0VxteUlJVViRpX8H3bZjSgQS50yv3I9jS2o_SxMB1av741lBfANyHeEzQ7SjB4I29PiL8fWcc_win-P-8qe9L"
+	},
+	{
+		"title": "CWTK50 Day1(20260307)",
+		"productUrl": "https://photos.app.goo.gl/DWnt6L2NGsNqaQkM8",
+		"mediaItemsCount": "35",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMQrrDrQb5QkCV3y6PVJJWfctazuWjdEXpCWaLE8vKfiX3wtNPnQyjZqNGD9FvTpIJHmT4QE2HISCg5DPh8yH7Xghrl7G9XcF6JtSltZPg0d5PYaSQF"
+	},
+	{
 		"title": "Coser幻日祭(20260131~20260201)",
 		"productUrl": "https://photos.app.goo.gl/1rLrohffDXy789R98",
 		"mediaItemsCount": "33",
