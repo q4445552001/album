@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "CCF06 Day2(20260405)",
+		"productUrl": "https://photos.app.goo.gl/yY1Rv16DcWVy3iq39",
+		"mediaItemsCount": "34",
+		"Des": "高雄展覽館",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMICiMnUZUY_kBmDTijMMafOO-4rFq6ceyYnB585TjxdjrTT1KB5k5CI2wTVH7QkLVGmuNIHmUgLncJ19eGz9kz90jcVBqnsy3pkBJaatTFhME8uNCl"
+	},
+	{
+		"title": "CCF06 Day1(20260404)",
+		"productUrl": "https://photos.app.goo.gl/USwXeQ6X5CANaCq26",
+		"mediaItemsCount": "28",
+		"Des": "高雄展覽館",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOQtV8cFoAA3FMYCpiH_vR3U35xLHj10BjMOJFwV_ZoiZaPKz2ATnQcqm4vofQN3TOcx0NwKZ22uQznUYkOW5DkBG1igiYjiRFE9bPkrCRiZg9Vzi86"
+	},
+	{
 		"title": "SZAniFest樹人校園動漫節(20260321)",
 		"productUrl": "https://photos.app.goo.gl/dFd1Ea4kkY55jmoD9",
 		"mediaItemsCount": "40",
