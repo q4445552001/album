@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "2026-ACOSTA@高雄 Day2(20260426)", //記得下次與幻日季換順序
+		"productUrl": "https://photos.app.goo.gl/JEFzSvMsBTUN2RZf6",
+		"mediaItemsCount": "58",
+		"Des": "高雄夢時代",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMRQGMuY9NaVxghYsTYHOMNNar6n9u3jEaz4N9R49y_zRSEQfxBhqYfZbwcEg8PEVjn8JGL2CD9oGnauHjMxuegtzyIuOqT3lHcHIcyE7lMTiBvvEgW"
+	},
+	{
+		"title": "2026-ACOSTA@高雄 Day1(20260425)",
+		"productUrl": "https://photos.app.goo.gl/TKzorQQw9nhra1GL6",
+		"mediaItemsCount": "79",
+		"Des": "高雄夢時代",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczM23W3tfNyoIXZYozQwVBCb-ESkmb4ViA1wN7KWnne71xEGY6kzgoxhdydHVIaBrcQXv-ubapi6iqRNKDHvW3N0Jgt17ck27MITk24ZzRgKpGUQwGvj"
+	},
+	{
 		"title": "2026-04高火幻日祭(20260418、19)",
 		"productUrl": "https://photos.app.goo.gl/C7x79UEAA2pF9RHr6",
 		"mediaItemsCount": "34",
