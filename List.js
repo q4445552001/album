@@ -1,5 +1,12 @@
 var List = [
 	{
+		"title": "K.F.C 05(20260516)", 
+		"productUrl": "https://photos.app.goo.gl/b2MiosBXQgK9PKCd9",
+		"mediaItemsCount": "20",
+		"Des": "崑山科技大學",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNS-0jWFG2zK9GPRfuDYf9hLnlw-Th-Mxb81ZRjxURdBbQ1wM7PAp6S8A74Y2qMD7wpSnVmKAlcYEYrgqgXfORccowDEfdWAIAmM-KWN-wlMzs2PkGW"
+	},
+	{
 		"title": "琉璃動漫市集code001(20260509、10)", 
 		"productUrl": "https://photos.app.goo.gl/MqLe224ZCsRM79RRA",
 		"mediaItemsCount": "21",
