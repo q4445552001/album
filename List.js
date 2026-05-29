@@ -1,6 +1,20 @@
 var List = [
 	{
-		"title": "2026-05高火幻日祭 Day2(202600517)",
+		"title": "成大琥珀月 Day2(20260524)",
+		"productUrl": "https://photos.app.goo.gl/YQFTWbQtjBoGZ92SA",
+		"mediaItemsCount": "41",
+		"Des": "台南成功大學",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczPPlkHMIPAoZ0ANv1HyDQj9x6SOVeYBH-eukOGcHSE37TfjLDKd2R2PbK-NM3KTk8Bg893V7wRxU2FdOCiiZgPnxo-ahXzQKCtwqaxR8a0AWOTxqfhW"
+	},
+	{
+		"title": "成大琥珀月 Day1(20260523)",
+		"productUrl": "https://photos.app.goo.gl/YVL1Wj6M9o3JkRZSA",
+		"mediaItemsCount": "15",
+		"Des": "台南成功大學",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNIFLLa_JFt3YUE-U7D3febmw5eP-iIeOJ4XcGiIBjM8THavO-QydnPS4HU1S-XtJXFWQpb-fR6hrdNYoQeawHF53vRP0YlgqWP3J0UvSj3eqOI319K"
+	},
+	{
+		"title": "2026-05高火幻日祭 Day2(20260517)",
 		"productUrl": "https://photos.app.goo.gl/merRNCrsRSMCy5GU7",
 		"mediaItemsCount": "20",
 		"Des": "高雄車站",
