@@ -4,14 +4,14 @@ var List = [
 		"productUrl": "https://photos.app.goo.gl/8nMFe2ud45QYCibv7",
 		"mediaItemsCount": "40",
 		"Des": "高雄駁二藝術特區",
-		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNe-Dya6nDDujKqxpxVnKwC7tOydrN4BpfpFcnEOyRilB_zw3V2AjPANgYNz3uSqteu7eqOCQjo8ZygQjJXrEegBmFHF51n5N_id1SiL3xrZvXwu6Ng"
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMj49nfdYZBBiFKJ1sGoXH_VAGd1p9Cb3h9hXSu24kTThsDwPFw3KEr52pqhzsRowqfQhR2VimP3_-YDqySRrj8-oOgxop37LiH4HBEvAGWf4heAARx"
 	},
 	{
 		"title": "動漫紀元-次元巡航祭(2026) Day1 (20260530)",
 		"productUrl": "https://photos.app.goo.gl/e3jHPXYeXnhQD3g99",
 		"mediaItemsCount": "42",
 		"Des": "高雄駁二藝術特區",
-		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczPPlkHMIPAoZ0ANv1HyDQj9x6SOVeYBH-eukOGcHSE37TfjLDKd2R2PbK-NM3KTk8Bg893V7wRxU2FdOCiiZgPnxo-ahXzQKCtwqaxR8a0AWOTxqfhW"
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNe-Dya6nDDujKqxpxVnKwC7tOydrN4BpfpFcnEOyRilB_zw3V2AjPANgYNz3uSqteu7eqOCQjo8ZygQjJXrEegBmFHF51n5N_id1SiL3xrZvXwu6Ng"
 	},
 	{
 		"title": "成大琥珀月 Day2(20260524)",
