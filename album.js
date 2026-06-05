@@ -87,7 +87,12 @@ function Get(size) {
                         <img src="${isNULL(item.coverPhotoBaseUrl, null) ?? "./icon/no-image-icon-23494-Windows.ico"}" loading="lazy">
                     </div>
                     <div class="desc">(${item.mediaItemsCount} 個項目)</div>
-                    <div class="desc">${item.title}<br>${isNULL(item.Des, null) ?? ""}</div>
+                    <div style="height:40px" class="desc">
+					${item.title}
+					</div>
+                    <div class="desc">
+					${isNULL(item.Des, null) ?? ""}
+					</div>
                 </a>
 		`;
 
