@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "KACG2606 Day2 (20260614)",
+		"productUrl": "https://photos.app.goo.gl/BjgViAxUACRhhjNv7",
+		"mediaItemsCount": "34",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNYb_d_fkBbOguFkLGFMX9Q72gXBlReCcpnfBnrsCK3Rybpi7xPDuhGwgNSy_78NK1bmYnvl7CUd1vprdETdcOtBq6P2MQ4TOpUtESKDSVSeAYVuBCt"
+	},
+	{
+		"title": "KACG2606 Day1 (20260613)",
+		"productUrl": "https://photos.app.goo.gl/V3Xh4QXk11dod9yk8",
+		"mediaItemsCount": "18",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOcHqzQT-tjrpN3No7MgZKTBXq70wlS9nQ31YApiPlsb5Qw0wJHo7hVkG6TIuPItVtFb30n1jADwJUtBhpV1DrU6Z0Vxn3HJP1660-9OEPkelj6HPGR"
+	},
+	{
 		"title": "動漫紀元-次元巡航祭(2026) Day2 (20260531)",
 		"productUrl": "https://photos.app.goo.gl/8nMFe2ud45QYCibv7",
 		"mediaItemsCount": "40",
