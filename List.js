@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "KACG2607 Day2(20260705)",
+		"productUrl": "https://photos.app.goo.gl/hx7sKmsCvho14gPQ6",
+		"mediaItemsCount": "22",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczO7Vry4FaYFK6THBSBDprlDDLwzQyCZLERjI3mYQ_VDla2enHYcTD3sy-ICv6hCvd8s2lB0xT5ri9OkEiSoeBfzvvj9-YhMVWY6FS1DeJeujbbccNsn"
+	},
+	{
+		"title": "KACG2607 Day1(20260704)",
+		"productUrl": "https://photos.app.goo.gl/X3Fdi3pyRozjHGhG9",
+		"mediaItemsCount": "24",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMMWb0U9EBTt_Ifvelf9_gvfyv7tnj2jqSgaz5MwmaosJyPfP4ksF6yDdWy0ELTkJ2DxCzUnDEMqcjV1tiIbk0k4cW97KgMywkO4iRhH1gPnmW2ynNp"
+	},
+	{
 		"title": "2026雲緣起(20260628)",
 		"productUrl": "https://photos.app.goo.gl/XrszvQNqSFVxJUCu6",
 		"mediaItemsCount": "62",
