@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "202607夏戀高捷動漫祭 Day2(20260726)",
+		"productUrl": "https://photos.app.goo.gl/tL4LMzi15bdUCQGw7",
+		"mediaItemsCount": "42",
+		"Des": "高雄捷運美麗島站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNDiclJP-pkt5vpQngWmAj2P2pdHTh8acgNPz_Gm74DDnI5NHnDz_H8hDNfbbZyB3arSAEZXovUst5NQrlBX4yjg9aYUtuLY9KxlAjAzyRIQWnNeqto"
+	},
+	{
+		"title": "202607夏戀高捷動漫祭 Day1(20260725)",
+		"productUrl": "https://photos.app.goo.gl/5oxDGWKvpsBGzsca9",
+		"mediaItemsCount": "33",
+		"Des": "高雄捷運美麗島站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOSPJI8hsOElYMfzcFtTYQjnnUT7NcX-gIPSIm9FUKl5qveWjbxVaXxM5sI4c_3Ww3QtfZHx8tkfEXMcVXMRdKbI4T7VXADErVTMPW7kGB2t5Px_7TQ"
+	},
+	{
 		"title": "2026-07高火幻日祭(20260718、19)",
 		"productUrl": "https://photos.app.goo.gl/suUhLPfDD6ZkvqL78",
 		"mediaItemsCount": "31",
