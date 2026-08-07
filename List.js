@@ -1,10 +1,10 @@
 var List = [
 	{
-		"title": "202607夏戀高捷動漫祭 Day2(20260726)",
-		"productUrl": "https://photos.app.goo.gl/tL4LMzi15bdUCQGw7",
-		"mediaItemsCount": "42",
-		"Des": "高雄捷運美麗島站",
-		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNDiclJP-pkt5vpQngWmAj2P2pdHTh8acgNPz_Gm74DDnI5NHnDz_H8hDNfbbZyB3arSAEZXovUst5NQrlBX4yjg9aYUtuLY9KxlAjAzyRIQWnNeqto"
+		"title": "2026存在革命 Day2(20260801)",
+		"productUrl": "https://photos.app.goo.gl/MB94RoSrm7rmPVxn7",
+		"mediaItemsCount": "60",
+		"Des": "台南一中",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOTN3uDYV6pVja3ZRaCFI-sx_EPCgl46pLMAGFzrLcIU4Muj8jUDevY9xUe5jbEJo8dJsuUshleejjv2-s3cMGtQJ51ZdTvfwfZ7wOY9Pvp6fjf3XDB"
 	},
 	{
 		"title": "202607夏戀高捷動漫祭 Day2(20260726)",
