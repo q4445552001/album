@@ -1,5 +1,12 @@
 var List = [
 	{
+		"title": "2026存在革命 Dayㄅ(20260802)",
+		"productUrl": "https://photos.app.goo.gl/RcY9TZEhFErRHoe68",
+		"mediaItemsCount": "40",
+		"Des": "台南一中",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczPIst-n7_DkSyn6ECiQpSItk2N4TExOvuALrhxxD_ca1YvN4Z3BvQEniiHoMv-rZ-_qaJmgL6IXfmSs0nqF7DdP9nn-8xUtKbq1YP6Xm6TKZ9iZdyU9"
+	},
+	{
 		"title": "2026存在革命 Day2(20260801)",
 		"productUrl": "https://photos.app.goo.gl/MB94RoSrm7rmPVxn7",
 		"mediaItemsCount": "60",
