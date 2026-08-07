@@ -1,6 +1,6 @@
 var List = [
 	{
-		"title": "2026存在革命 Dayㄅ(20260802)",
+		"title": "2026存在革命 Day1(20260802)",
 		"productUrl": "https://photos.app.goo.gl/RcY9TZEhFErRHoe68",
 		"mediaItemsCount": "40",
 		"Des": "台南一中",
