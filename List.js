@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "KACG2608 Day2(20260830)",
+		"productUrl": "https://photos.app.goo.gl/rq38fXBVGkHtvYEV8",
+		"mediaItemsCount": "34",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczO70Hgl8qoSWmEBJ957zKJYigprJ1YNVpyen5B-I4A8JGaRQk7pX_bcagpvJbHLGXgPAqWODSVLPqpHaXmNefAYkzNYscN1FpSmi-0aX0naGaLQrz_4"
+	},
+	{
+		"title": "KACG2608 Day1(20260829)",
+		"productUrl": "https://photos.app.goo.gl/LJtLoPyC62tBfxBJ9",
+		"mediaItemsCount": "49",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMIKwXjZijxgkhyHUdtP4n-tSu8z04btXsQ_UEfnSSKTcybqBZ_KMiwMi6dsiMRxTEuRjWgpTj080eW6U8CoO4APE5H2Rvgmr3l-2Kej5j1bJD4xLZ6"
+	},
+	{
 		"title": "202608夏戀高捷動漫祭(20260822)",
 		"productUrl": "https://photos.app.goo.gl/UHrwRWVFvk7U4d498",
 		"mediaItemsCount": "63",
