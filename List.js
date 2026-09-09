@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "CWTK51 Day2(20260906)",
+		"productUrl": "https://photos.app.goo.gl/5XHkxekYr6dH1d6t8",
+		"mediaItemsCount": "55",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczP9kWHIqHwkjGuJcpq2TdOfiFYUVY5ogqlalFXrvhmH0_XoU6BhjPp7jG8IxxS1NJaLD7FSQ9DNeNPRPogUTS2wnKIi96MoDPWv21fwUM1s_VnFfiee"
+	},
+	{
+		"title": "CWTK51 Day1(20260905)",
+		"productUrl": "https://photos.app.goo.gl/vFEwAzTDdDRWjHbA6",
+		"mediaItemsCount": "54",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMLT4RJBVEuWYZd47PxgLQKeMCO_f-AibGDBPX-7IktmbHAfTHKEc-s08zsZc8paPqamPXCYDVxyk-xhQnk3WsHf1ieQedeDIan4VYykCJbTDbL0JP3"
+	},
+	{
 		"title": "KACG2608 Day2(20260830)",
 		"productUrl": "https://photos.app.goo.gl/rq38fXBVGkHtvYEV8",
 		"mediaItemsCount": "34",
