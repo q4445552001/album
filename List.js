@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "KACG2609 Day2(20260919)",
+		"productUrl": "https://photos.app.goo.gl/Um2wa5Z11dHgZHr96",
+		"mediaItemsCount": "24",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczM9Y4P-hD74FcPeRDpPJmi3SqQWacJfRXtIl760ncaAcrtM-kZh_oOx9CDQZTPNisHsPK9WZi84dHlVmwOqaPm9p1OYv7GtAjsEMGl81u2z0MOe-FOh"
+	},
+	{
+		"title": "KACG2609 Day1(20260920)",
+		"productUrl": "https://photos.app.goo.gl/D5Nj2XZAApzpeGQ39",
+		"mediaItemsCount": "37",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMR6wBhtK5dMrt2cW9dIv3fomp03UJ8N8v1fjF9tW-wYteVxzLY98JngQo9MO_0cxexi8zFsaBPjb45pE9Dha1i9LSFbS_ZTq1PQIZo1iJNTTEHo_ax"
+	},
+	{
 		"title": "2026秋幕奇幻季 Day2(20260913)",
 		"productUrl": "https://photos.app.goo.gl/yHu4EDtxCS2jEntQ9",
 		"mediaItemsCount": "59",
