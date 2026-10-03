@@ -1,5 +1,19 @@
 var List = [
 	{
+		"title": "2026次元巡航祭 Day2(20260928)",
+		"productUrl": "https://photos.app.goo.gl/DAwF7UALELjpsWdU7",
+		"mediaItemsCount": "50",
+		"Des": "高雄青埔覓蜜基地",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMV0qKecWLcdiH5drrE-hutFN6uTUyXI6BpDBg1B5qVMLnk4Qec8F_GOfiMJeUc6jDbFKDzsUPETK04ItnQ1tGKUjj94k04MbPam5a8LEyzhl-vKb8O"
+	},
+	{
+		"title": "2026十鼓魔法動漫祭 Day2(20260927)",
+		"productUrl": "https://photos.app.goo.gl/hqMSDDdsbfUfJ2kA7",
+		"mediaItemsCount": "51",
+		"Des": "台南十鼓文創園區",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNfENvTgVuWebfumgU6Rkh5bVjqQdvSKAcZa5BTVOnEGXOA7x78L2emxmZkz7XwpD2Yevu0KrQngzTY2Z1AxCS4C0IeLYjysyEdc6p0pmSVgucgCDKw"
+	},
+	{
 		"title": "KACG2609 Day2(20260919)",
 		"productUrl": "https://photos.app.goo.gl/Um2wa5Z11dHgZHr96",
 		"mediaItemsCount": "24",
