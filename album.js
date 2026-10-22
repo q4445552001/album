@@ -86,13 +86,11 @@ function Get(size) {
                     <div class="img">
                         <img src="${isNULL(item.coverPhotoBaseUrl, null) ?? "./icon/no-image-icon-23494-Windows.ico"}" loading="lazy">
                     </div>
-                    <div class="desc">(${item.mediaItemsCount} 個項目)</div>
-                    <div style="height:40px" class="desc">
-					${item.title}
-					</div>
-                    <div class="desc">
-					${isNULL(item.Des, null) ?? ""}
-					</div>
+                    <div class="desc" style="font-size: 12px">(${item.mediaItemsCount} 個項目)</div>
+                    <div style="height:40px" class="desc">${item.title}</div>
+                    <div class="desc">${isNULL(item.Des, null) ?? "&nbsp;"}</div>
+					<hr>
+                    <div class="date" style="font-size: 12px"><label>拍攝日期&nbsp;${convDateFormat(isNULL(item.date, null)) ?? "N/A"}</label></div>
                 </a>
 		`;
 
@@ -172,22 +170,31 @@ function footer_AddClass(open = false) {
 	}
 }
 
-/** 回頂層
-*/
-function Top() {
-	$('html').stop().animate({ scrollTop: 0 }, 200, () => $('.backtop').hide());
-}
+/** 回頂層 */
+const Top = () => $('html').stop().animate({ scrollTop: 0 }, 200, () => $('.backtop').hide());
 
-/** 回頂層
-*/
-function Down() {
-	$('html').stop().animate({ scrollTop: ScrollHeight }, 200);
-}
+/** 回頂層 */
+const Down = () => $('html').stop().animate({ scrollTop: ScrollHeight }, 200);
 
 /*副程式****************************************************************************************************/
 
-function showDevText() {
-	$("test").html(DevText);
+const showDevText = () => $("test").html(DevText);
+
+function convDateFormat(str) {
+	try {
+		if (str == null)
+			return str
+
+		if (str.length == 8) {
+			let _str = `${str.substring(0, 4)}-${str.substring(4, 6)}-${str.substring(6, 8)}`
+			if (Date.parse(_str) != NaN)
+				return _str
+		}
+	} catch {
+		return str
+	}
+	
+	return str
 }
 
 /**判斷是否null
