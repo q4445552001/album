@@ -1,5 +1,61 @@
 List = [...List,
 	{
+		"title": "萬聖惡作祭vol.2 Day2",
+		"date": "20261025",
+		"productUrl": "https://photos.app.goo.gl/fvn35PvKwBTXyqT6A",
+		"mediaItemsCount": "8",
+		"Des": "左營新光三越",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMPSkG_hz0o5gqsbJ0kv8kiBbm5LdDn_A7QY2umYtAn-e7hQMC_abkY4-8KC-wNCRR6Cf2iXO-f7VuUF8OF5tM3iLY8ezOruE6MTlkT_IBtfTliF8J7"
+	},
+	{
+		"title": "KACG2610 Day2",
+		"date": "20261018",
+		"productUrl": "https://photos.app.goo.gl/1Mwh5WBXJT52cN5n7",
+		"mediaItemsCount": "46",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMKwwfi2msCafUZt2yPb8lCdF03tdrt6t6cWCJCgP7L102T0H4ci_rUBz4HEcAIlPb4seVkvxDm_XK0JST0uoxv2D6Wsqsmpqd6BIt2ScLPidQafdfS"
+	},
+	{
+		"title": "KACG2610 Day1",
+		"date": "20261017",
+		"productUrl": "https://photos.app.goo.gl/c41GeCRAV8dUSynr5",
+		"mediaItemsCount": "38",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczM_GxSsAOwrDDMnGtNzqzFcCZ3dFUj8f_NFox9_t5zs28LjS_M1MSW7JSmfQf_fdb0zh3lJAwrXk8D3Kf8UVKg2cE0Pb2_q_Ft5jKw2qF7ieDzLeguq"
+	},
+	{
+		"title": "2026巨蛋國際動漫節 Day4",
+		"date": "20261012",
+		"productUrl": "https://photos.app.goo.gl/NS3fzgeUNhZGJnsk6",
+		"mediaItemsCount": "24",
+		"Des": "高雄巨蛋",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOUeLtytDwQqmXXcSG2lGuS7zLdhnDEcz-RNZvcah5Rx3cO37ByqcKMfxqTaZbjXaGrn7p59CoFj5tONBieW8nAhvyVueweWwgrOV4vCsiYhW5dnVQ3"
+	},
+	{
+		"title": "2026巨蛋國際動漫節 Day3",
+		"date": "20261011",
+		"productUrl": "https://photos.app.goo.gl/MSsg7kMfmGoqhGkk8",
+		"mediaItemsCount": "96",
+		"Des": "高雄巨蛋",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczOYbk7DD_f9PTan3X1jQBykepD3vrKarOuKh6PToej8zKt1luG8tLOzG8GCMn_D3mIBdE6pPZqJUHFA5l7-lUNXsd_MrXtKnRnCueskCXHgpIOfUaWQ"
+	},
+	{
+		"title": "2026巨蛋國際動漫節 Day2",
+		"date": "20261010",
+		"productUrl": "https://photos.app.goo.gl/fFEz5CUGsJm1tram8",
+		"mediaItemsCount": "108",
+		"Des": "高雄巨蛋",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNsRjAe73tImqyGV7ET5OCaUB7sPpu-yhc3ovAEEdnDBbyWN24nRlzl7gJaCDzptMVEsg1vFAqub-zli-mVMyeulSzigqLg6Xavz9CAjtisbymjsBRE"
+	},
+	{
+		"title": "2026巨蛋國際動漫節 Day1",
+		"date": "20261009",
+		"productUrl": "https://photos.app.goo.gl/UVUamuUvPSJLU47s7",
+		"mediaItemsCount": "86",
+		"Des": "高雄巨蛋",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNH17uEOr6Het7IGinC73Fvf_BG-dJ9dllyWDQA3DItvutFOpJ5DrwvWHJ112HaUmNZxpTmMtQO6mPNdwsZy59aekRVinDzhxrHYORF-LaTmHL6-6Ns"
+	},
+	{
 		"title": "2026次元巡航祭 Day2",
 		"date": "20260928",
 		"productUrl": "https://photos.app.goo.gl/DAwF7UALELjpsWdU7",
