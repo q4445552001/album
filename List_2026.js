@@ -1,5 +1,13 @@
 List = [...List,
 	{
+		"title": "KACG2611 Day1+2",
+		"date": "20261031、20261101",
+		"productUrl": "https://photos.app.goo.gl/97MbZkaaMTuY8gtU9",
+		"mediaItemsCount": "45",
+		"Des": "高雄車站",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczMQHahK-czyk464zMqmaHEUTzb4mLgR9SplTwuxt-lBnghrWZP91aWoX8ziMkcQiZpviPbMHh7G6OHeDtaUAyR6jIcwvbDHOIRYxVuxJRHFN9tloqBP"
+	},
+	{
 		"title": "萬聖惡作祭vol.2 Day2",
 		"date": "20261025",
 		"productUrl": "https://photos.app.goo.gl/fvn35PvKwBTXyqT6A",
