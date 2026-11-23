@@ -1,5 +1,13 @@
 List = [...List,
 	{
+		"title": "2026高科瑤光集同人展 Day1、Day2",
+		"date": "20261121、22",
+		"productUrl": "https://photos.app.goo.gl/5LYUkaevSW57RtGu8",
+		"mediaItemsCount": "51",
+		"Des": "高雄科大楠梓校區(海科)",
+		"coverPhotoBaseUrl": "https://lh3.googleusercontent.com/pw/AP1GczNidvqQ5ZGyZiGW-oVe5eK6-aVJ8KhxfEj0hSsBbGcFobragX0uy1xKeTsmLxcxpz0m0aDLCYz2gbqzHAZcChe5Vytmhc493cLuo6aouXyJ9Uyg0_sn"
+	},
+	{
 		"title": "2026冬戀高捷動漫祭 Day1、Day2",
 		"date": "20261107、08",
 		"productUrl": "https://photos.app.goo.gl/b3pnVo1tToNpvdNU8",
