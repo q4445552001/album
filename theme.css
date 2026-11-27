@@ -12,9 +12,9 @@
 }
 
 #themeBtn {
-    z-index: 2;
+    z-index: 1;
     padding: 10px;
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0;
 }
