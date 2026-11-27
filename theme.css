@@ -3,12 +3,14 @@
     --bg: #ffffff;
     --text: rgba(0, 0, 0, .54);
     --date: rgb(255, 92, 92);
+    --endUrl: #1d4ed8;
 }
 
 [data-theme="dark"] {
     --bg: #202124;
     --text: #42e0e6;
     --date: #ffe711;
+    --endUrl: #bfdbfe;
 }
 
 #themeBtn {
