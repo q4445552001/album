@@ -5,7 +5,6 @@ class _theme {
         self.COOKIE_DAYS = 365;
         self.COOKIE_NAME = 'theme';
         self.media = window.matchMedia('(prefers-color-scheme: dark)');
-        self.labels = { auto: '跟隨系統', light: '淺色', dark: '深色' };
 
         let btn = $('#themeBtn button')[0]
         btn.addEventListener('click', () => {
