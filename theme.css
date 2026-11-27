@@ -25,3 +25,11 @@
     background: transparent;
     border: none;
 }
+
+[data-theme-value="light"] {
+    color: #ffffff;
+}
+
+[data-theme-value="dark"] {
+    color: #202124;
+}

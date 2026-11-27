@@ -42,7 +42,7 @@ class _theme {
         document.documentElement.setAttribute('data-theme', theme);
         const isLight = theme == 'light'
         btn.setAttribute('data-theme-value', isLight ? 'dark' : 'light')
-        btn.textContent = isLight ? '🌙' : '☀️';
+        btn.textContent = isLight ? '⏾' : '☀︎';
     }
 }
 
