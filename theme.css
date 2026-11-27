@@ -1,0 +1,27 @@
+:root,
+[data-theme="light"] {
+    --bg: #ffffff;
+    --text: rgba(0, 0, 0, .54);
+    --date: rgb(255, 92, 92);
+}
+
+[data-theme="dark"] {
+    --bg: #202124;
+    --text: #42e0e6;
+    --date: #ffe711;
+}
+
+#themeBtn {
+    z-index: 1;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+#themeBtn button {
+    cursor: pointer;
+    font-size: 30px;
+    background: transparent;
+    border: none;
+}
